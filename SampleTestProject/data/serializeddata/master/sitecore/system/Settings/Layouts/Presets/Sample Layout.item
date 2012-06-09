@@ -1,0 +1,173 @@
+----item----
+version: 1
+id: {1C15E081-9842-4DA2-ACF3-E7ED7D5B0651}
+database: master
+path: /sitecore/system/Settings/Layouts/Presets/Sample Layout
+parent: {D25A8DEA-1AA0-4537-88C6-07E6388E22D3}
+name: Sample Layout
+master: {5D0A6D3E-D256-4632-8CC2-83C65F5BBA00}
+template: {BECD2136-596F-4405-9D70-92EAFC70A349}
+templatekey: Layout Preset
+
+----field----
+field: {E44B54E1-72DF-40A9-9854-6877BD208CF4}
+name: Layout
+key: layout
+content-length: 476
+
+<?xml version="1.0" encoding="utf-16"?><r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{14030E9F-CE92-49C6-AD87-7D49B50E42EA}"><r id="{493B3A83-0FA7-4484-8FC9-4680991CF743}" ph="content" ds="" par="" /></d><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}" l="{14030E9F-CE92-49C6-AD87-7D49B50E42EA}"><r id="{493B3A83-0FA7-4484-8FC9-4680991CF743}" ph="" ds="" par="" /></d></r>
+----version----
+language: da
+version: 1
+revision: 9af0294c-8138-4afa-a73e-b8dbeeba9308
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+Eksempel på layout
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220153
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9af0294c-8138-4afa-a73e-b8dbeeba9308
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220153
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: d20edba2-897b-4e41-9b86-ba8cd4b20707
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20061214T172015
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d20edba2-897b-4e41-9b86-ba8cd4b20707
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20070831T134452
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: e95ebef2-91a0-46dc-af2d-c1315a54f1c8
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+サンプル レイアウト
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123233:634148803536415000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e95ebef2-91a0-46dc-af2d-c1315a54f1c8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123233:634148803536415000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,201 @@
+----item----
+version: 1
+id: {378694DB-683D-4DFF-83E2-2F4202664001}
+database: master
+path: /sitecore/system/Marketing Center/Personalization/Predefined Conditions/visitor is press
+parent: {055634EF-74F9-4B13-A282-F1D1BBB4C0CF}
+name: visitor is press
+master: {00000000-0000-0000-0000-000000000000}
+template: {550B5CEF-242C-463F-8ED5-983922A39863}
+templatekey: Conditional Rendering Rule
+
+----field----
+field: {5C29555E-6565-4984-A692-115B49C047A0}
+name: Rule
+key: rule
+content-length: 243
+
+<ruleset>  <rule>    <conditions>      <condition id="{A21BB2BF-0D28-4BFC-846E-4E6DED5F5666}" uid="756EA687FBF64B9CBABA126DCC323B84" operatorid="{066602E2-ED1D-44C2-A698-7ED27FD3A2CC}" identification="40" />    </conditions>  </rule></ruleset>
+----version----
+language: da
+version: 1
+revision: c508569f-1291-4700-885e-e2c859570d5a
+
+----field----
+field: {062041C0-682E-4BD3-A778-85451EA11956}
+name: Name
+key: name
+content-length: 32
+
+Når den besøgende er fra pressen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+besøgende er fra pressen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220142
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c508569f-1291-4700-885e-e2c859570d5a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220142
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 5d24d203-de96-429a-8820-d884a4859a64
+
+----field----
+field: {062041C0-682E-4BD3-A778-85451EA11956}
+name: Name
+key: name
+content-length: 35
+
+where the visitor is from the press
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\adminjc
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090202T184608
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\adminjc
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5d24d203-de96-429a-8820-d884a4859a64
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090202T184759:633691972792117402
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\adminjc
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: aec71fef-2f62-424c-813a-6d305b3d2aa4
+
+----field----
+field: {062041C0-682E-4BD3-A778-85451EA11956}
+name: Name
+key: name
+content-length: 8
+
+ビジターがプレス
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+ビジターがプレス
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123354:634148804340946250
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aec71fef-2f62-424c-813a-6d305b3d2aa4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123359:634148804392352500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

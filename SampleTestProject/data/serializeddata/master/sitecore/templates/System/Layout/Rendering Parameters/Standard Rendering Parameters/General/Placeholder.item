@@ -1,0 +1,201 @@
+----item----
+version: 1
+id: {E42027F4-766D-45A7-8CF4-29E5C94326F7}
+database: master
+path: /sitecore/templates/System/Layout/Rendering Parameters/Standard Rendering Parameters/General/Placeholder
+parent: {426DE32D-EEDB-4938-A0D7-12D0D2107A2C}
+name: Placeholder
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 16
+
+Single-Line Text
+----field----
+field: {BE351A73-FCB0-4213-93FA-C302D8AB4F51}
+name: Shared
+key: shared
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: da
+version: 1
+revision: 51bf063c-60e7-41b0-a068-288a880819e0
+
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 11
+
+Placeholder
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+Placeholder
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220105
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+51bf063c-60e7-41b0-a068-288a880819e0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220105
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: a3834973-f3e0-4691-8fb5-3b4c66d5a146
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090420T133847
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a3834973-f3e0-4691-8fb5-3b4c66d5a146
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110415T193455:634384928952753359
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: d0cdfc4e-c0b9-4928-b0bc-11196993deb1
+
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 8
+
+プレースホルダー
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+プレースホルダー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123208:634148803283758750
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d0cdfc4e-c0b9-4928-b0bc-11196993deb1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123208:634148803283915000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

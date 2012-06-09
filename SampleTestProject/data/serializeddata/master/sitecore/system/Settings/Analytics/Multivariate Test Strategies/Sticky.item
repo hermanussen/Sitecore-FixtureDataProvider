@@ -1,0 +1,159 @@
+----item----
+version: 1
+id: {1744A9FF-6E22-43F0-83E8-CCB30DDE35E5}
+database: master
+path: /sitecore/system/Settings/Analytics/Multivariate Test Strategies/Sticky
+parent: {938C20B4-78BE-4D2A-8999-7E4714C32E78}
+name: Sticky
+master: {00000000-0000-0000-0000-000000000000}
+template: {314BE5B0-8536-45CF-900D-A84B2B335210}
+templatekey: Multivariate Test Strategy
+
+----field----
+field: {3D445351-A7D8-4C5F-A009-9AF499B44C6E}
+name: Type
+key: type
+content-length: 85
+
+Sitecore.Analytics.Rules.Conditions.StickyMultiVariateTestStrategy,Sitecore.Analytics
+----version----
+language: da
+version: 1
+revision: 052cd097-0b02-4c8c-b192-5619ea96dadd
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+Sticky
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220146
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+052cd097-0b02-4c8c-b192-5619ea96dadd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220146
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 2c569dbd-a632-4a18-88a5-395fe3e9a623
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090603T121849
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2c569dbd-a632-4a18-88a5-395fe3e9a623
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090603T121945:633796283859050188
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 2ccbb973-13c5-463f-b1a9-877735075bb9
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 3
+
+定着性
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123309:634148803895321250
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2ccbb973-13c5-463f-b1a9-877735075bb9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123309:634148803895321250
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

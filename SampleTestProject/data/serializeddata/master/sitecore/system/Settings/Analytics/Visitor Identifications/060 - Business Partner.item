@@ -1,0 +1,283 @@
+----item----
+version: 1
+id: {2C955495-0D56-4D80-8942-A4A4E53A3B18}
+database: master
+path: /sitecore/system/Settings/Analytics/Visitor Identifications/060 - Business Partner
+parent: {C0BE89B5-4061-4276-9C4F-569EDC4EEF06}
+name: 060 - Business Partner
+master: {00000000-0000-0000-0000-000000000000}
+template: {8AAD3A0B-C9A6-4DA7-AB73-A54DF249B73D}
+templatekey: Visitor Identification
+
+----field----
+field: {77540987-B38F-453D-B0A1-7AD7E3ED15C1}
+name: Value
+key: value
+content-length: 2
+
+60
+----version----
+language: da
+version: 1
+revision: f4086cd8-cfc1-490f-9301-9b7f6273a2d5
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 18
+
+Forretningspartner
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 43
+
+Den besøgende er fra en forretningspartner.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 25
+
+060 - Forretnings partner
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T122950:634148801908915000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f4086cd8-cfc1-490f-9301-9b7f6273a2d5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T122950:634148801909071250
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 0205d58f-2710-4a01-8dab-cf835427d08e
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 16
+
+Business Partner
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 34
+
+The visitor is a business partner.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220153
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0205d58f-2710-4a01-8dab-cf835427d08e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220153
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 0871658b-0b57-42fd-9662-85e5b7e7de2a
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 16
+
+Business Partner
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 34
+
+The visitor is a business partner.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090116T115431
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0871658b-0b57-42fd-9662-85e5b7e7de2a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090116T115750:633677038705339691
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: 329aefa9-0d85-400c-bf37-aead679738f3
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 10
+
+ビジネス パートナー
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 15
+
+ビジターがビジネス パートナー
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+060 - ビジネス パートナー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123007:634148802073446250
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+329aefa9-0d85-400c-bf37-aead679738f3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123332:634148804123290000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,194 @@
+----item----
+version: 1
+id: {DA0D1AEA-0144-4A40-9AF0-3123526C9163}
+database: master
+path: /sitecore/system/Settings/Rules/Common/Conditions/Fields/Field Empty
+parent: {6C45D7F2-086E-43FF-BA03-11CE193BA16F}
+name: Field Empty
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
+templatekey: Condition
+
+----field----
+field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
+name: Type
+key: type
+content-length: 68
+
+Sitecore.Rules.Conditions.FieldConditions.FieldEmpty,Sitecore.Kernel
+----version----
+language: da
+version: 1
+revision: c0fac759-49d4-4155-9ee5-605de9e5f181
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 38
+
+Når [fieldname,,,specific] felt er tom
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Felt er tomt
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223302
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c0fac759-49d4-4155-9ee5-605de9e5f181
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223302
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: a573597d-8013-453c-b2d8-c4c938cfb70b
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 43
+
+where [fieldname,,,specific] field is empty
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20081209T114531
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a573597d-8013-453c-b2d8-c4c938cfb70b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100307T210633:634035927933964158
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 096c07af-577a-4e62-a12c-554f58e95c38
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 40
+
+条件： （フィールド） [fieldname,,,特定] フィールドが空白の場合
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+空白フィールド
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223302
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+096c07af-577a-4e62-a12c-554f58e95c38
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223302
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

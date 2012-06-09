@@ -1,0 +1,201 @@
+----item----
+version: 1
+id: {857332F3-EF3A-4571-9ECA-743FCCD67873}
+database: master
+path: /sitecore/system/Settings/Analytics/Reports/Reports/Sales/Leads/Leads All/Leads - UK
+parent: {E33335BE-CAFC-4FEC-9AB0-12D45CFB092F}
+name: Leads - UK
+master: {00000000-0000-0000-0000-000000000000}
+template: {6674A4AF-EACE-445E-89F1-E2F464026056}
+templatekey: Report
+
+----field----
+field: {0CC4AD84-F69D-44D2-9600-5C7522AA2401}
+name: File Name
+key: file name
+content-length: 67
+
+/sitecore/shell/Applications/Analytics/Reports/Leads Page Based.mrt
+----field----
+field: {B62DA413-170E-42D1-81B1-E1A31670CCCC}
+name: Filter
+key: filter
+content-length: 221
+
+<filters>  <filter id="{42D0D5CE-D69D-48FE-AE79-DFC76101C00E}" uid="{A9DED24C-5E4F-46C6-85E8-D9B911F4B09B}" />  <filter id="{65CEF392-DCC4-432F-8A85-F25E7207E024}" uid="{35139C4B-C75D-42C8-9F7A-BB47D28BFD86}" /></filters>
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 32
+
+Business/32x32/phone_pick_up.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----version----
+language: da
+version: 1
+revision: 30ec4531-b418-4c36-b361-acddeca78e7a
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+Leads - UK
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220151
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+30ec4531-b418-4c36-b361-acddeca78e7a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220151
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: f7b70fc0-febe-4b91-9b57-d8a873a9ab97
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090115T130801
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\adminjc
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f7b70fc0-febe-4b91-9b57-d8a873a9ab97
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090330T093044:633740022441577077
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: 872c5596-2a35-4406-bfce-8b622a7ca629
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+見込み顧客 - イギリス
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123140:634148803005165000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+872c5596-2a35-4406-bfce-8b622a7ca629
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123140:634148803005165000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

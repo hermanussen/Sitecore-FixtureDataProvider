@@ -1,0 +1,255 @@
+----item----
+version: 1
+id: {75ABCC04-1587-4793-B059-5C3FAAEC5BC9}
+database: master
+path: /sitecore/system/Settings/Rules/Conditional Renderings/Conditions/Metro Code Condition
+parent: {CA70A39A-4F10-4E22-BDD7-1AFA37FDAEDF}
+name: Metro Code Condition
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
+templatekey: Condition
+
+----field----
+field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
+name: Type
+key: type
+content-length: 74
+
+ Sitecore.Analytics.Rules.Conditions.MetroCodeCondition,Sitecore.Analytics
+----version----
+language: da
+version: 1
+revision: dceb23c1-98c8-4f7a-aca7-82ffa7e59a13
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 80
+
+Når metro code [operatorid,StringOperator,,compares to] [value,,,specific value]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+Metro Code Condition
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T122953:634148801931727500
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dceb23c1-98c8-4f7a-aca7-82ffa7e59a13
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T122953:634148801931727500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: d493ac52-09c5-4c42-b09f-da8961df799a
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 85
+
+wo die Postleitzahl [operatorid,StringOperator,,compares to] [value,,,specific value]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220156
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d493ac52-09c5-4c42-b09f-da8961df799a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220156
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ba43725b-33d8-42cb-9bb8-655c60437aa0
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 86
+
+where the metro code [operatorid,StringOperator,,compares to] [value,,,specific value]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090202T191431
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\adminjc
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ba43725b-33d8-42cb-9bb8-655c60437aa0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090202T192608:633691995685739050
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\adminjc
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: 60ed3368-6d63-4940-b4f5-02a44b0f4740
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 67
+
+条件： （都市コード） [value,,,特定の都市コード] [operatorid,StringOperator,,と比較する]場合
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+都市コード条件
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123148:634148803082665000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+60ed3368-6d63-4940-b4f5-02a44b0f4740
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123358:634148804389227500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

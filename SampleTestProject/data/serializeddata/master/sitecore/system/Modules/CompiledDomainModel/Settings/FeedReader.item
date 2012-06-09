@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {6C069F99-7722-4624-A567-B563FF17C2E2}
+database: master
+path: /sitecore/system/Modules/CompiledDomainModel/Settings/FeedReader
+parent: {3E324911-0B5C-449A-AD9F-1AE18465AB03}
+name: FeedReader
+master: {00000000-0000-0000-0000-000000000000}
+template: {361F5B07-1011-4630-BEEF-5F4EC5766462}
+templatekey: DomainObjectSet
+
+----field----
+field: {76C59C14-315A-455F-9C72-27C535331DFF}
+name: Templates to map to Domain Model
+key: templates to map to domain model
+content-length: 155
+
+{D937A3F8-AC08-4524-BF91-0B17C6947D9C}|{830E3C8F-9A0E-4058-BB6D-32BB9A0190FC}|{9B0A6EA2-BB48-4F02-9106-6687C819CD97}|{A68AF918-0EE9-4A2E-8514-1165EBE1D7B0}
+----field----
+field: {EE356192-8015-4E90-9184-5228186186D8}
+name: Templates that contribute to Domain Model
+key: templates that contribute to domain model
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 3eab8390-b9fc-4dee-8c18-2d0e1a93db14
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20101203T113200
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3eab8390-b9fc-4dee-8c18-2d0e1a93db14
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110526T220241:634420441614814453
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

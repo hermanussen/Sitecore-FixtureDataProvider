@@ -1,0 +1,187 @@
+----item----
+version: 1
+id: {1FB1A877-17A5-4A92-9ACB-82E8A9AD752A}
+database: master
+path: /sitecore/system/Workflows/Sample Workflow/Draft/__OnSave/Auto Submit Action
+parent: {62B79128-155C-4210-A4D2-EEC62BB51603}
+name: Auto Submit Action
+master: {00000000-0000-0000-0000-000000000000}
+template: {26C54307-6D31-46CF-A96B-70678C4FEF7D}
+templatekey: Auto Submit Action
+
+----field----
+field: {ADA004E1-3B87-476A-B44E-0C66606D0F47}
+name: Type
+key: type
+content-length: 58
+
+Sitecore.Workflows.Simple.AutoSubmitAction,Sitecore.Kernel
+----field----
+field: {67918816-9524-4666-87B3-C07AFF9CEBD3}
+name: Role Name
+key: role name
+content-length: 37
+
+sitecore\Sitecore Minimal Page Editor
+----field----
+field: {FA367915-B5A1-4E32-B35F-D7C9ECD399EB}
+name: Next state
+key: next state
+content-length: 38
+
+{46DA5376-10DC-4B66-B464-AFDAA29DE84F}
+----version----
+language: da
+version: 1
+revision: 684be8c6-bef7-4bc5-b501-b87018285c90
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 30
+
+Automatisk afsendelseshandling
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220201
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+684be8c6-bef7-4bc5-b501-b87018285c90
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220201
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: a5449531-3e50-48b7-9fea-2a0d0f6f589b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080313T153332
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a5449531-3e50-48b7-9fea-2a0d0f6f589b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080313T155336:633410204160909172
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: 332d53b1-6b35-45db-be3e-e85c5780f8ab
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+自動投稿アクション
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123028:634148802281727500
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+332d53b1-6b35-45db-be3e-e85c5780f8ab
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123028:634148802281727500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

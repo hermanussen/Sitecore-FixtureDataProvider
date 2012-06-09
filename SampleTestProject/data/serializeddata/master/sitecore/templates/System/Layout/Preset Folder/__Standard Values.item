@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {1B873C11-E922-4A34-BE43-7D3038DF4CE3}
+database: master
+path: /sitecore/templates/System/Layout/Preset Folder/__Standard Values
+parent: {814C7598-3537-448E-8685-C2654053FBEC}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {814C7598-3537-448E-8685-C2654053FBEC}
+templatekey: Preset Folder
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{BECD2136-596F-4405-9D70-92EAFC70A349}|{814C7598-3537-448E-8685-C2654053FBEC}
+----version----
+language: en
+version: 1
+revision: 7305c8e1-0b7d-4932-8ccf-ce31c1da5732
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20100517T110157
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7305c8e1-0b7d-4932-8ccf-ce31c1da5732
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100517T110240:634096909603334674
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,290 @@
+----item----
+version: 1
+id: {19CA7009-4352-4AD4-A0FA-0E9FD90D3025}
+database: master
+path: /sitecore/system/Settings/Analytics/Visitor Identifications/900 - Bot - Feed Reader
+parent: {C0BE89B5-4061-4276-9C4F-569EDC4EEF06}
+name: 900 - Bot - Feed Reader
+master: {00000000-0000-0000-0000-000000000000}
+template: {8AAD3A0B-C9A6-4DA7-AB73-A54DF249B73D}
+templatekey: Visitor Identification
+
+----field----
+field: {77540987-B38F-453D-B0A1-7AD7E3ED15C1}
+name: Value
+key: value
+content-length: 3
+
+900
+----field----
+field: {C6612519-F19A-4C6D-BE36-6785396B7BE6}
+name: Allow for User Agent
+key: allow for user agent
+content-length: 1
+
+1
+----version----
+language: da
+version: 1
+revision: adbcf8dd-2fa2-41e2-94a6-798701cce163
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 18
+
+Robot - Feed læser
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 37
+
+Den besøgende er en feed læser robot.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+900 - Robot - Feed læser
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T122950:634148801909696250
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+adbcf8dd-2fa2-41e2-94a6-798701cce163
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T122951:634148801910008750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 1d8e76ba-f5ab-491e-b6e6-78e21189ce5a
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 17
+
+Bot - Feed Reader
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 35
+
+The visitor is a feed reader robot.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220153
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1d8e76ba-f5ab-491e-b6e6-78e21189ce5a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220153
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 3ff92a45-0d1e-4097-b65d-64b3e91f1744
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 17
+
+Bot - Feed Reader
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 35
+
+The visitor is a feed reader robot.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090116T115548
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ff92a45-0d1e-4097-b65d-64b3e91f1744
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090505T175550:633771429503475443
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: c10b5e23-6bf8-471e-bd13-f6128420e1c7
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 15
+
+ボット - フィード リーダー
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 18
+
+ビジターがフィード リーダー ボット
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+900 - ボット - フィード リーダー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123008:634148802089071250
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c10b5e23-6bf8-471e-bd13-f6128420e1c7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123332:634148804123446250
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

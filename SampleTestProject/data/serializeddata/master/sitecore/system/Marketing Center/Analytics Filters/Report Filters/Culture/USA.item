@@ -1,0 +1,210 @@
+----item----
+version: 1
+id: {59946EA2-6DB5-41E1-8913-205DC6988EFE}
+database: master
+path: /sitecore/system/Marketing Center/Analytics Filters/Report Filters/Culture/USA
+parent: {582C9DD5-8E92-4B15-873F-CB8AE43B867E}
+name: USA
+master: {00000000-0000-0000-0000-000000000000}
+template: {8749F3D5-3EB9-43D8-8AC5-DFDCAEC19489}
+templatekey: Predefined Filter
+
+----field----
+field: {71522732-E883-4DDD-986D-0770566D69A5}
+name: Filter
+key: filter
+content-length: 151
+
+<filters>
+  <filter id="{26DD39B3-A6A5-4726-93C1-4BD854576AF6}" uid="{7530DD56-6B09-48A3-A9B3-67733BBE0209}" country="US|CA" value="US" />
+</filters>
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 24
+
+Flags/32x32/flag_usa.png
+----version----
+language: da
+version: 1
+revision: 3787fc91-1965-4d79-9121-64b7e8a96ebf
+
+----field----
+field: {EA657A94-9004-4F40-86C1-A2A6A5F56D11}
+name: Header
+key: header
+content-length: 28
+
+Når den besøgende er fra USA
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 3
+
+USA
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220141
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3787fc91-1965-4d79-9121-64b7e8a96ebf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220141
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: f8a76a15-2e56-47a3-b5f9-3446ae139f1a
+
+----field----
+field: {EA657A94-9004-4F40-86C1-A2A6A5F56D11}
+name: Header
+key: header
+content-length: 29
+
+where the visitor is from USA
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090115T125909
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\adminjc
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f8a76a15-2e56-47a3-b5f9-3446ae139f1a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090330T092301:633740017817902618
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: 47dcae25-2050-4db5-83d3-12c0253c76ae
+
+----field----
+field: {EA657A94-9004-4F40-86C1-A2A6A5F56D11}
+name: Header
+key: header
+content-length: 11
+
+条件： アメリカ合衆国
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+アメリカ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123346:634148804264383750
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+47dcae25-2050-4db5-83d3-12c0253c76ae
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123359:634148804397977500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

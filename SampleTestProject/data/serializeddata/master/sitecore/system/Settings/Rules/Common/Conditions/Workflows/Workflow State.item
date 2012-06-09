@@ -1,0 +1,194 @@
+----item----
+version: 1
+id: {39F88BFF-2B06-4BEE-859B-66C264AE3F6D}
+database: master
+path: /sitecore/system/Settings/Rules/Common/Conditions/Workflows/Workflow State
+parent: {AEA78AB8-91CA-43E1-97A9-E95C485002A5}
+name: Workflow State
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
+templatekey: Condition
+
+----field----
+field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
+name: Type
+key: type
+content-length: 83
+
+Sitecore.Rules.Conditions.WorkflowConditions.WorkflowStateCondition,Sitecore.Kernel
+----version----
+language: da
+version: 1
+revision: 02a7fd04-cc6d-469e-9c2e-9cc621724da0
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 138
+
+når element indgår i [workflowid,Tree,root={05592656-56D7-4D85-AACF-30919EE494F9}&selection=System/Workflow/State,specific] workflow fasen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+Workflow tilstand
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223304
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+02a7fd04-cc6d-469e-9c2e-9cc621724da0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223304
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: bd902e6f-c9ed-4b31-9114-33bb1a14217d
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 142
+
+where the item is in the [workflowid,Tree,root={05592656-56D7-4D85-AACF-30919EE494F9}&selection=System/Workflow/State,specific] workflow state
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080923T083900
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bd902e6f-c9ed-4b31-9114-33bb1a14217d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100818T160114:634177440740278562
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 1112cef3-7421-418b-b078-10cf3cedba28
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 128
+
+条件： （ワークフロー） アイテムが [workflowid,Tree,root={05592656-56D7-4D85-AACF-30919EE494F9}&selection=System/Workflow/State,特定の] ワークフロー状態の場合
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+ワークフロー状態
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223304
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1112cef3-7421-418b-b078-10cf3cedba28
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223304
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,222 @@
+----item----
+version: 1
+id: {FCCB80B8-77A2-461D-9D9D-6A4C4D39ED17}
+database: master
+path: /sitecore/system/Settings/Validation Rules/Field Rules/Sample/Max Length 40
+parent: {6ABAE264-7F96-4AA3-832B-2C6C614E6B94}
+name: Max Length 40
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F8E2549-C77F-4860-B83B-54FA31E2BEFA}
+templatekey: Validation Rule
+
+----field----
+field: {43A829D1-43DA-465C-B772-EBAA0D515E3E}
+name: Type
+key: type
+content-length: 80
+
+Sitecore.Data.Validators.FieldValidators.MaxLengthFieldValidator,Sitecore.Kernel
+----field----
+field: {8F9D8603-2E34-4C5F-B0BB-F0D91EB956CA}
+name: Parameters
+key: parameters
+content-length: 12
+
+MaxLength=40
+----version----
+language: da
+version: 1
+revision: 926f87e8-1d11-44f2-b7cb-3e0e8f9d8264
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 25
+
+Har maksimum længde på 40
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 42
+
+Felt kan maksimum indeholde 40 karakterer.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+Max længde 40
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T122953:634148801939852500
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+926f87e8-1d11-44f2-b7cb-3e0e8f9d8264
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T122953:634148801939852500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: acdbb4e1-cdfe-4cc5-80f4-2653d714c607
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 24
+
+Has Maximum Length of 40
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 41
+
+Field must contain maximum 40 characters.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20061123T150758
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+acdbb4e1-cdfe-4cc5-80f4-2653d714c607
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20071107T101408
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: a3eeefc0-0f13-4ec0-a6fe-69ee8e7a2a39
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 16
+
+最大 40 文字が設定されている
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 25
+
+フィールドに含まれる文字数は最大 40 文字です。
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+最大の長さ 40
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123145:634148803055165000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a3eeefc0-0f13-4ec0-a6fe-69ee8e7a2a39
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123145:634148803055165000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

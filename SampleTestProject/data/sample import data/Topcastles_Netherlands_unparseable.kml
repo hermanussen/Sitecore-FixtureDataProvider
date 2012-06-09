@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+    <name>Topcastles_Netherlands.kml</name>
+    <Style id="HighlightSheet1Map10">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>http://www.topcastles.com/topcastle-icon.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>70ff00ff</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    <Style id="NormalSheet1Map7">
+      <IconStyle>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://www.topcastles.com/topcastle-icon.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>00000000</color>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00ff00ff</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    <Style id="HighlightSheet1Map9">
+      <IconStyle>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://www.topcastles.com/topcastle-icon.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>70ff00ff</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="Sheet1Map5">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#NormalSheet1Map5</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#HighlightSheet1Map5</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="Sheet1Map7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#NormalSheet1Map7</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#HighlightSheet1Map7</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="Sheet1Map8">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#NormalSheet1Map8</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#HighlightSheet1Map8</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="Sheet1Map9">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#NormalSheet1Map9</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#HighlightSheet1Map9</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="Sheet1Map10">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#NormalSheet1Map10</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#HighlightSheet1Map10</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="HighlightSheet1Map5">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://www.topcastles.com/topcastle-icon.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>70ff00ff</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    <Style id="NormalSheet1Map9">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>http://www.topcastles.com/topcastle-icon.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>00000000</color>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00ff00ff</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    <Style id="NormalSheet1Map5">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.topcastles.com/topcastle-icon.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>00000000</color>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00ff00ff</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    <Style id="NormalSheet1Map8">
+      <IconStyle>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://www.topcastles.com/topcastle-icon.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>00000000</color>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00ff00ff</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    <Style id="HighlightSheet1Map7">
+      <IconStyle>
+        <Icon>
+          <href>http://www.topcastles.com/topcastle-icon.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>70ff00ff</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    <Style id="HighlightSheet1Map8">
+      <IconStyle>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://www.topcastles.com/topcastle-icon.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>70ff00ff</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    <Style id="NormalSheet1Map10">
+      <IconStyle>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://www.topcastles.com/topcastle-icon.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>00000000</color>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00ff00ff</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    <Folder>
+      <name>Netherlands</name>
+      <description>Topcastles of the Nethrelands according to http://www.topcastles.com. The bigger the icon the higher the score of the castle.</description>
+      <Placemark>
+        <name>Muiderslot</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=muiderslot<br><br>22. Muiderslot<br>Country: Netherlands<br>Region: Noord Holland<br>Place: Muiden]]></description>
+        <LookAt>
+          <longitude>5.0718055556</longitude>
+          <latitude>52.334230556</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map5</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.0718055556,52.33423055599999,0</coordinates>
+<!-- The following line is missing a &gt; on purpose; for testing -->
+        </Point
+      </Placemark>
+      <Placemark>
+        <name>Kasteel de Haar</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=haar<br><br>92. Kasteel de Haar<br>Country: Netherlands<br>Region: Utrecht<br>Place: Haarzuilen]]></description>
+        <LookAt>
+          <longitude>4.9863472222</longitude>
+          <latitude>52.121430556</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map7</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>4.9863472222,52.121430556,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Doornenburg</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=doornenburg<br><br>113. Doornenburg<br>Country: Netherlands<br>Region: Gelderland<br>Place: Doornenburg]]></description>
+        <LookAt>
+          <longitude>5.9992257308</longitude>
+          <latitude>51.894331675</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map7</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.9992257308,51.894331675,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Doorwerth</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=doorwerth<br><br>141. Kasteel Doorwerth<br>Country: Netherlands<br>Region: Gelderland<br>Place: Oosterbeek]]></description>
+        <LookAt>
+          <longitude>5.7880035589</longitude>
+          <latitude>51.96680735</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map7</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.7880035589,51.96680735,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel het Valkhof (Pfalz Nymwegen)</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=nijmegen<br><br>160. Kasteel het Valkhof (Pfalz Nymwegen)<br>Country: Netherlands<br>Region: Gelderland<br>Place: Nijmegen]]></description>
+        <LookAt>
+          <longitude>5.8708333333</longitude>
+          <latitude>51.847777778</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.8708333333,51.84777777799999,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Medemblik (Radboud)</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=medemblik<br><br>180. Kasteel Medemblik (Radboud)<br>Country: Netherlands<br>Region: Noord Holland<br>Place: Medemblik]]></description>
+        <LookAt>
+          <longitude>5.1131466255</longitude>
+          <latitude>52.772574925</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.1131466255,52.772574925,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Slot Ammersoyen</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=ammersoyen<br><br>187. Slot Ammersoyen<br>Country: Netherlands<br>Region: Gelderland<br>Place: Ammerzoden]]></description>
+        <LookAt>
+          <longitude>5.2293778456</longitude>
+          <latitude>51.752040613</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.2293778456,51.75204061300001,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Slot Loevestein</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=loevestein<br><br>220. Slot Loevestein<br>Country: Netherlands<br>Region: Gelderland<br>Place: Woudrichem]]></description>
+        <LookAt>
+          <longitude>5.0213888889</longitude>
+          <latitude>51.816388889</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.0213888889,51.816388889,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leidse Burcht</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=leidseburcht<br><br>221. Leidse Burcht<br>Country: Netherlands<br>Region: Zuid Holland<br>Place: Leiden]]></description>
+        <LookAt>
+          <longitude>4.4922222222</longitude>
+          <latitude>52.158888889</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>4.4922222222,52.158888889,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Duurstede</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=duurstede<br><br>228. Kasteel Duurstede<br>Country: Netherlands<br>Region: Gelderland<br>Place: Wijk bij Duurstede]]></description>
+        <LookAt>
+          <longitude>5.3433333333</longitude>
+          <latitude>51.969444444</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.3433333333,51.969444444,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Hoensbroek</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=hoensbroek<br><br>232. Kasteel Hoensbroek<br>Country: Netherlands<br>Region: Limburg<br>Place: Hoensbroek]]></description>
+        <LookAt>
+          <longitude>5.9184451332</longitude>
+          <latitude>50.917008293</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.9184451332,50.917008293,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel van Valkenburg</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=valkenburg<br><br>246. Kasteel van Valkenburg<br>Country: Netherlands<br>Region: Limburg<br>Place: Valkenburg]]></description>
+        <LookAt>
+          <longitude>5.8308333333</longitude>
+          <latitude>50.861944444</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.830833333300001,50.861944444,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Huis Bergh</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=bergh<br><br>250. Kasteel Huis Bergh<br>Country: Netherlands<br>Region: Gelderland<br>Place: s-Heerenberg]]></description>
+        <LookAt>
+          <longitude>6.2408660413</longitude>
+          <latitude>51.87452076</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>6.240866041299999,51.87452076,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Helmond</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=helmond<br><br>259. Kasteel Helmond<br>Country: Netherlands<br>Region: Noord Brabant<br>Place: Helmond]]></description>
+        <LookAt>
+          <longitude>5.6530655549</longitude>
+          <latitude>51.477180263</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.6530655549,51.477180263,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Slot Brederode</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=brederode<br><br>269. Slot Brederode<br>Country: Netherlands<br>Region: Noord Holland<br>Place: Santpoort]]></description>
+        <LookAt>
+          <longitude>4.6228931496</longitude>
+          <latitude>52.42538202</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>4.6228931496,52.42538202000001,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Teylingen</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=teylingen<br><br>270. Kasteel Teylingen<br>Country: Netherlands<br>Region: Zuid Holland<br>Place: Sassenheim]]></description>
+        <LookAt>
+          <longitude>4.5191666667</longitude>
+          <latitude>52.231111111</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>4.5191666667,52.231111111,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Rosendaal</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=rosendaal<br><br>340. Kasteel Rosendaal<br>Country: Netherlands<br>Region: Gelderland<br>Place: Rosendaal]]></description>
+        <LookAt>
+          <longitude>5.963947109</longitude>
+          <latitude>52.009465112</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map8</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.963947109,52.009465112,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Huis te Nijenrode</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=nijenrode<br><br>366. Kasteel Huis te Nijenrode<br>Country: Netherlands<br>Region: Utrecht<br>Place: Breukelen]]></description>
+        <LookAt>
+          <longitude>5.008907</longitude>
+          <latitude>52.163179</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map9</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.008907,52.163179,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Hernen</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=hernen<br><br>391. Kasteel Hernen<br>Country: Netherlands<br>Region: Gelderland<br>Place: Hernen]]></description>
+        <LookAt>
+          <longitude>5.6766518902</longitude>
+          <latitude>51.834695845</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map9</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.676651890200001,51.834695845,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Dussen</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=dussen<br><br>480. Kasteel Dussen<br>Country: Netherlands<br>Region: Noord Brabant<br>Place: Dussen]]></description>
+        <LookAt>
+          <longitude>4.9696233528</longitude>
+          <latitude>51.734113064</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map9</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>4.9696233528,51.73411306400001,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Heeswijk-Dinther</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=heeswijk<br><br>493. Kasteel Heeswijk-Dinther<br>Country: Netherlands<br>Region: Noord Brabant<br>Place: Heeswijk]]></description>
+        <LookAt>
+          <longitude>5.4411111</longitude>
+          <latitude>51.6558333</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map9</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.4411111,51.6558333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Keverberg (Motte van Kessel)</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=kessel<br><br>503. Kasteel Keverberg (Motte van Kessel)<br>Country: Netherlands<br>Region: Limburg<br>Place: Kessel]]></description>
+        <LookAt>
+          <longitude>6.0558333</longitude>
+          <latitude>51.2905555</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map9</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>6.0558333,51.2905555,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burcht van Oostvoorne</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=oostvoorne<br><br>590. Burcht van Oostvoorne<br>Country: Netherlands<br>Region: Zuid Holland<br>Place: Oostvoorne]]></description>
+        <LookAt>
+          <longitude>4.1038888889</longitude>
+          <latitude>51.916388889</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map9</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>4.1038888889,51.916388889,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Rechteren</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=rechteren<br><br>600. Kasteel Rechteren<br>Country: Netherlands<br>Region: Overijssel<br>Place: Dalfsen]]></description>
+        <LookAt>
+          <longitude>6.2888336486</longitude>
+          <latitude>52.49788084</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map9</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>6.2888336486,52.49788084,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Egmond</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=egmond<br><br>817. Kasteel Egmond<br>Country: Netherlands<br>Region: Noord Holland<br>Place: Egmond aan den Hoef]]></description>
+        <LookAt>
+          <longitude>4.6544704472</longitude>
+          <latitude>52.621655844</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map10</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>4.6544704472,52.621655844,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel van Montfort</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=montfortl<br><br>879. Kasteel van Montfort<br>Country: Netherlands<br>Region: Limburg<br>Place: Montfort]]></description>
+        <LookAt>
+          <longitude>5.9419444</longitude>
+          <latitude>51.1244444</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map10</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.9419444,51.1244444,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ridderhofstad den Ham</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=ham<br><br>959. Ridderhofstad den Ham<br>Country: Netherlands<br>Region: Utrecht<br>Place: Vleuten]]></description>
+        <LookAt>
+          <longitude>4.9955555</longitude>
+          <latitude>52.1055555</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map10</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>4.9955555,52.1055555,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Het Huys van Steyn (Gen Hous)</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=steinl<br><br>991. Het Huys van Steyn (Gen Hous)<br>Country: Netherlands<br>Region: Limburg<br>Place: Stein]]></description>
+        <LookAt>
+          <longitude>5.7553430719</longitude>
+          <latitude>50.962783423</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map10</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.7553430719,50.96278342300001,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Sluys</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=sluys<br><br>997. Kasteel Sluys<br>Country: Netherlands<br>Region: Zeeland<br>Place: Ark]]></description>
+        <LookAt>
+          <longitude>3.3922222222</longitude>
+          <latitude>51.316388889</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map10</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>3.392222222200001,51.316388889,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Het Oude Loo</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=loo<br><br>1017. Kasteel Het Oude Loo<br>Country: Netherlands<br>Region: Gelderland<br>Place: Apeldoorn]]></description>
+        <LookAt>
+          <longitude>5.9429528071</longitude>
+          <latitude>52.235408373</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map10</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.942952807099999,52.235408373,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Woerden</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=woerden<br><br>1041. Kasteel Woerden<br>Country: Netherlands<br>Region: Utrecht<br>Place: Waardenburg]]></description>
+        <LookAt>
+          <longitude>4.8880555</longitude>
+          <latitude>52.085</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map10</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>4.8880555,52.085,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Loenersloot</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=loenersloot<br><br>1056. Kasteel Loenersloot<br>Country: Netherlands<br>Region: Utrecht<br>Place: Loenersloot]]></description>
+        <LookAt>
+          <longitude>4.996734069</longitude>
+          <latitude>52.229383742</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map10</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>4.996734069,52.229383742,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel Schagen</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=schagen<br><br>1059. Kasteel Schagen<br>Country: Netherlands<br>Region: Noord Holland<br>Place: Schagen]]></description>
+        <LookAt>
+          <longitude>4.7964063572</longitude>
+          <latitude>52.78672156</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map10</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>4.7964063572,52.78672156,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kasteel IJsselstein</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=ijsselstein<br><br>1064. Kasteel IJsselstein<br>Country: Netherlands<br>Region: Utrecht<br>Place: Ijsselstein]]></description>
+        <LookAt>
+          <longitude>5.0427777778</longitude>
+          <latitude>52.020833333</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map10</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.0427777778,52.020833333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>De Waardenburg</name>
+        <Snippet maxLines="0"></Snippet>
+        <description><![CDATA[Topcastle according to http://www.topcastles.com/kastelen.php?SubMenu=main&SelCastle=waardenburg<br><br>1065. De Waardenburg<br>Country: Netherlands<br>Region: Gelderland<br>Place: Waardenburg]]></description>
+        <LookAt>
+          <longitude>5.266565244</longitude>
+          <latitude>51.831797302</latitude>
+          <altitude>0</altitude>
+          <range>1000</range>
+          <tilt>0</tilt>
+          <heading>0</heading>
+        </LookAt>
+        <styleUrl>#Sheet1Map10</styleUrl>
+        <ExtendedData>
+        </ExtendedData>
+        <Point>
+          <coordinates>5.266565244,51.831797302,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

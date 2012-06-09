@@ -1,0 +1,283 @@
+----item----
+version: 1
+id: {1C254664-602F-4C94-BCDE-2FB0E135E51C}
+database: master
+path: /sitecore/system/Settings/Analytics/Visitor Identifications/500 - Competitor
+parent: {C0BE89B5-4061-4276-9C4F-569EDC4EEF06}
+name: 500 - Competitor
+master: {00000000-0000-0000-0000-000000000000}
+template: {8AAD3A0B-C9A6-4DA7-AB73-A54DF249B73D}
+templatekey: Visitor Identification
+
+----field----
+field: {77540987-B38F-453D-B0A1-7AD7E3ED15C1}
+name: Value
+key: value
+content-length: 3
+
+500
+----version----
+language: da
+version: 1
+revision: e6734dec-7c0e-46c3-9e85-1f4424ae6591
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 10
+
+Konkurrent
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 30
+
+Den besøgende er en konkurrent
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+500 - Konkurrent
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T122950:634148801909383750
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e6734dec-7c0e-46c3-9e85-1f4424ae6591
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T122950:634148801909383750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: a3f845ea-8f1f-4fe7-9af2-d211626608a0
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 10
+
+Competitor
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 28
+
+The visitor is a competitor.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220153
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a3f845ea-8f1f-4fe7-9af2-d211626608a0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220153
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 902100ee-d1da-4523-896c-6cf0c0a6a84a
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 10
+
+Competitor
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 28
+
+The visitor is a competitor.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090116T115455
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+902100ee-d1da-4523-896c-6cf0c0a6a84a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090116T115751:633677038710539691
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: 27facc28-870a-43eb-a7ee-1c4ab3ab7075
+
+----field----
+field: {25C5D410-9DA9-42AE-90CD-B727BA47E1C5}
+name: Header
+key: header
+content-length: 4
+
+競合他社
+----field----
+field: {25FBD522-8BD6-4281-85AD-A14217A5A739}
+name: Description
+key: description
+content-length: 9
+
+ビジターが競合他社
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+500 - 競合他社
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123008:634148802086258750
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+27facc28-870a-43eb-a7ee-1c4ab3ab7075
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123332:634148804123290000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

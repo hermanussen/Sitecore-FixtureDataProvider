@@ -1,0 +1,222 @@
+----item----
+version: 1
+id: {50229ED0-1D90-4E55-9BE9-473813AFDD63}
+database: master
+path: /sitecore/system/Settings/Validation Rules/Field Rules/System/Is Xml
+parent: {EC98B276-8777-4164-8F7B-6BBBFEF0B8FA}
+name: Is Xml
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F8E2549-C77F-4860-B83B-54FA31E2BEFA}
+templatekey: Validation Rule
+
+----field----
+field: {43A829D1-43DA-465C-B772-EBAA0D515E3E}
+name: Type
+key: type
+content-length: 69
+
+Sitecore.Data.Validators.FieldValidators.XmlValidator,Sitecore.Kernel
+----field----
+field: {8F9D8603-2E34-4C5F-B0BB-F0D91EB956CA}
+name: Parameters
+key: parameters
+content-length: 0
+
+
+----field----
+field: {B3607D43-E523-494E-9AFF-102678D11670}
+name: Use Thread
+key: use thread
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: 5fcc9b1d-b1a4-4cd3-8f6e-040e90211af3
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 13
+
+Er gyldig Xml
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 42
+
+Feltet skal indeholde en gyldig Xml værdi.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+Er Xml
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223305
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5fcc9b1d-b1a4-4cd3-8f6e-040e90211af3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223305
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 42d5ce1b-9a33-4301-b4b3-4b032784aff7
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 12
+
+Is Valid Xml
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 41
+
+The field must contain a valid Xml value.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20070123T133500
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+42d5ce1b-9a33-4301-b4b3-4b032784aff7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100315T084811:634042396914678069
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: df97ef85-b208-43a7-a7ba-e1211555153b
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 7
+
+有効な XML
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 29
+
+フィールドには有効な XML 値が含まれる必要があります。
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+XML 検証
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223305
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+df97ef85-b208-43a7-a7ba-e1211555153b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223305
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

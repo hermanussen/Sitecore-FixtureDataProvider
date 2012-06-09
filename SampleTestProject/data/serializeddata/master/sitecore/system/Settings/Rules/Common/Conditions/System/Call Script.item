@@ -1,0 +1,194 @@
+----item----
+version: 1
+id: {F8B9BBB1-B8AA-4772-AE33-D11A22F26011}
+database: master
+path: /sitecore/system/Settings/Rules/Common/Conditions/System/Call Script
+parent: {394C43DA-BC89-480B-A794-284A462619B4}
+name: Call Script
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
+templatekey: Condition
+
+----field----
+field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
+name: Type
+key: type
+content-length: 78
+
+Sitecore.Rules.Conditions.SystemConditions.CallScriptCondition,Sitecore.Kernel
+----version----
+language: da
+version: 1
+revision: e739046e-7049-4b5d-bd7f-5132df502d29
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 66
+
+Når kørsel af [itemscriptid,Tree,,specific] script returnerer sand
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+Kør Script
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223303
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e739046e-7049-4b5d-bd7f-5132df502d29
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223303
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: c4618528-1caa-4ead-a2ef-1cc0eb5fc902
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 67
+
+where calling the [itemscriptid,Tree,,specific] script returns true
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20081209T113900
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c4618528-1caa-4ead-a2ef-1cc0eb5fc902
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100310T192259:634038457796709617
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 940c463f-b12b-4c23-b183-9afc577211f7
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 64
+
+条件： （スクリプト） 呼び出した [itemscriptid,Tree,,特定] スクリプトの戻り値が真 (true) の場合
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+スクリプトを呼び出す
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223303
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+940c463f-b12b-4c23-b183-9afc577211f7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223303
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

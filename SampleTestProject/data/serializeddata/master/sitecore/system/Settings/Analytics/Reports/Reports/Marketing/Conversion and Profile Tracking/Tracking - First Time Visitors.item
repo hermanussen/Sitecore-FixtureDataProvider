@@ -1,0 +1,201 @@
+----item----
+version: 1
+id: {F7DA2E38-DD92-458C-87A8-F51986E3E453}
+database: master
+path: /sitecore/system/Settings/Analytics/Reports/Reports/Marketing/Conversion and Profile Tracking/Tracking - First Time Visitors
+parent: {58AB3325-2518-42D6-AD07-6B913B2BDE86}
+name: Tracking - First Time Visitors
+master: {00000000-0000-0000-0000-000000000000}
+template: {6674A4AF-EACE-445E-89F1-E2F464026056}
+templatekey: Report
+
+----field----
+field: {0CC4AD84-F69D-44D2-9600-5C7522AA2401}
+name: File Name
+key: file name
+content-length: 62
+
+/sitecore/shell/Applications/Analytics/Reports/Performance.mrt
+----field----
+field: {B62DA413-170E-42D1-81B1-E1A31670CCCC}
+name: Filter
+key: filter
+content-length: 291
+
+<filters>  <filter id="{8B7ED594-B1C3-44D3-B7C8-A31FD0690259}" uid="{D23CF076-8B30-405A-AD5F-FF941CB318F3}" operatorid="{066602E2-ED1D-44C2-A698-7ED27FD3A2CC}" globalvisitno="1" />  <filter id="{42D0D5CE-D69D-48FE-AE79-DFC76101C00E}" uid="{7EC72686-4E02-4914-932C-DACE9A558183}" /></filters>
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 31
+
+People/32x32/Flag_checkered.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: da
+version: 1
+revision: a62014fd-721d-48d5-b131-57a2859d573d
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 33
+
+Tracking - Første gangs besøgende
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220148
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a62014fd-721d-48d5-b131-57a2859d573d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220148
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: df480478-251a-4cd3-8829-80cb348c3444
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090106T145000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+df480478-251a-4cd3-8829-80cb348c3444
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090612T130628:633804087888997210
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: 720bea5d-c86d-4d42-b50c-100bc5d84d91
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+トラッキング - はじめて訪れたビジター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123339:634148804196883750
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+720bea5d-c86d-4d42-b50c-100bc5d84d91
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123339:634148804196883750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

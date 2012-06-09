@@ -1,0 +1,194 @@
+----item----
+version: 1
+id: {1C9DAB80-C680-4859-B6ED-F6455FA9ED0C}
+database: master
+path: /sitecore/system/Settings/Analytics/Page Events/Follow Hit
+parent: {633273C1-02A5-4EBC-9B82-BD1A7C684FEA}
+name: Follow Hit
+master: {00000000-0000-0000-0000-000000000000}
+template: {059CFBDF-49FC-4F14-A4E5-B63E1E1AFB1E}
+templatekey: Page Event
+
+----field----
+field: {AC6BA888-4213-43BD-B787-D8DA2B6B881F}
+name: Name
+key: name
+content-length: 10
+
+Follow Hit
+----field----
+field: {9DC03E48-6D83-40E0-A45E-5F5673386AC3}
+name: Icon
+key: icon
+content-length: 32
+
+Applications/16x16/find_next.png
+----field----
+field: {797466F5-763B-4299-B6AD-E4192BF21222}
+name: Description
+key: description
+content-length: 31
+
+User has followed a search hit.
+----field----
+field: {E4D0FAF3-61E7-44D4-A921-CE5C606A8DA8}
+name: IsSystem
+key: issystem
+content-length: 1
+
+1
+----version----
+language: da
+version: 1
+revision: 4085557f-1f34-43ed-8b5a-169a364b922a
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+Følg hit
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220146
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4085557f-1f34-43ed-8b5a-169a364b922a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220146
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 37cc7ac6-c7a7-44c9-979f-5a33df77278c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20081211T095438
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+37cc7ac6-c7a7-44c9-979f-5a33df77278c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20081217T120350:633651122304187705
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 9fadf776-02b2-45e7-8917-318bfb02e4a2
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+検索結果がヒット
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123115:634148802753290000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9fadf776-02b2-45e7-8917-318bfb02e4a2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123115:634148802753290000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

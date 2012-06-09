@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {5F0B5F98-1DE8-4ACF-9627-0A6328BF7B58}
+database: master
+path: /sitecore/system/Modules/Events/HangmanConfig
+parent: {67DFCA37-0B80-413A-A6ED-B090CDC63D62}
+name: HangmanConfig
+master: {00000000-0000-0000-0000-000000000000}
+template: {110609B8-FDF0-4280-9F08-5A8B81D03F96}
+templatekey: FixedPathSet
+
+----field----
+field: {B96A388C-6676-4F61-BAD9-C8D21C3F18BE}
+name: Fixed tree locations
+key: fixed tree locations
+content-length: 38
+
+{8C0E7490-E3E9-4A09-83FA-CAC6E9F4AA02}
+----field----
+field: {3ED7DE4D-F4FE-4081-8965-BD5604C8766E}
+name: Relative fixed tree locations
+key: relative fixed tree locations
+content-length: 77
+
+{05D48188-D735-4209-8811-9594A8FFA6A0}|{F774455D-E401-4A26-B0F2-BE7411BEABB3}
+----version----
+language: en
+version: 1
+revision: 71e94f5b-e007-4404-b7b8-01a117c0b55c
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110113T235000
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+71e94f5b-e007-4404-b7b8-01a117c0b55c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110514T141431:634409792716738281
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 51
+
+<r owner="sitecore\Admin" date="20110113T235025" />

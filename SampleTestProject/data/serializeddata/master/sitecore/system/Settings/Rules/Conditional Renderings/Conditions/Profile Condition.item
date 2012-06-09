@@ -1,0 +1,255 @@
+----item----
+version: 1
+id: {F3BC1CC2-0724-4F7C-82A1-832F138431B3}
+database: master
+path: /sitecore/system/Settings/Rules/Conditional Renderings/Conditions/Profile Condition
+parent: {CA70A39A-4F10-4E22-BDD7-1AFA37FDAEDF}
+name: Profile Condition
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
+templatekey: Condition
+
+----field----
+field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
+name: Type
+key: type
+content-length: 72
+
+ Sitecore.Analytics.Rules.Conditions.ProfileCondition,Sitecore.Analytics
+----version----
+language: da
+version: 1
+revision: 410885d4-e56b-4cff-a511-ba09366278fb
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 126
+
+Når værdien af [profilekeyid,ProfileKey,,specific] profilnøglen [operatorid,Operator,,compares to][value,Text,,specific value]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+Profil betingelse
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T122953:634148801935008750
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+410885d4-e56b-4cff-a511-ba09366278fb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T122953:634148801935008750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: b655eb7a-0ed9-4321-a9c6-cd3c6af48fa9
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 132
+
+wo der Wert des [profilekeyid,ProfileKEy,,specific] Profil Schlüssels [operatorid,Operator,,compares to][value,Text,,specific value]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20101012T121053:634224822534375000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b655eb7a-0ed9-4321-a9c6-cd3c6af48fa9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20101012T121053:634224822534375000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 4a6da90c-4079-42c9-869f-cbad47076e24
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 129
+
+where the value of [profilekeyid,ProfileKey,,specific] profile key [operatorid,Operator,,compares to][value,Text,,specific value]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20081002T144136
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4a6da90c-4079-42c9-869f-cbad47076e24
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090608T112025:633800568253070079
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: 9a14d9a7-b85f-4679-bd39-fcdfeed7bfbd
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 107
+
+条件： （プロファイル） [profilekeyid,ProfileKey,,特定のプロファイル キー] の値が [value,Text,,特定の値] [operatorid,Operator,,と比較される]場合
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+プロファイル条件
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123214:634148803344227500
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9a14d9a7-b85f-4679-bd39-fcdfeed7bfbd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123359:634148804390790000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

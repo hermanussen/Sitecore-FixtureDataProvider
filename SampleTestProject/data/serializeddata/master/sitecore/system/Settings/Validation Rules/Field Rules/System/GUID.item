@@ -1,0 +1,215 @@
+----item----
+version: 1
+id: {5F9916E2-A16B-45D7-98F1-14318EFE16D3}
+database: master
+path: /sitecore/system/Settings/Validation Rules/Field Rules/System/GUID
+parent: {EC98B276-8777-4164-8F7B-6BBBFEF0B8FA}
+name: GUID
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F8E2549-C77F-4860-B83B-54FA31E2BEFA}
+templatekey: Validation Rule
+
+----field----
+field: {43A829D1-43DA-465C-B772-EBAA0D515E3E}
+name: Type
+key: type
+content-length: 71
+
+Sitecore.Data.Validators.FieldValidators.RegexValidator,Sitecore.Kernel
+----field----
+field: {8F9D8603-2E34-4C5F-B0BB-F0D91EB956CA}
+name: Parameters
+key: parameters
+content-length: 118
+
+Pattern=^[{|\(]?[0-9a-fA-F]{8}[-]?([0-9a-fA-F]{4}[-]?){3}[0-9a-fA-F]{12}[\)|}]?$&Text=Field "{0}" is not a valid GUID.
+----version----
+language: da
+version: 1
+revision: 6c904af7-c06d-4f29-a5b4-12ace353e2ba
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 17
+
+Er en gyldig Guid
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 44
+
+Feltet skal indeholde et gyldigt Guid værdi.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+GUID
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223305
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6c904af7-c06d-4f29-a5b4-12ace353e2ba
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223305
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 257f15e5-97d3-42fd-b1d7-1f1e676e9a20
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 13
+
+Is valid Guid
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 42
+
+The field must contain a valid Guid value.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20070123T114300
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+257f15e5-97d3-42fd-b1d7-1f1e676e9a20
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100315T083916:634042391564106570
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: d2c15ff9-efb4-4353-a00d-dd5ff546a5ea
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 8
+
+有効な GUID
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 29
+
+フィールドには有効な GUID が含まれる必要があります。
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+GUID
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223305
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d2c15ff9-efb4-4353-a00d-dd5ff546a5ea
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223305
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

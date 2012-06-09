@@ -1,0 +1,255 @@
+----item----
+version: 1
+id: {0F3C6BEC-E56B-4875-93D7-2846A75881D2}
+database: master
+path: /sitecore/system/Settings/Rules/Conditional Renderings/Actions/Set Data Source
+parent: {A432B2FC-FE54-4709-ADAB-C191A3F4CB8B}
+name: Set Data Source
+master: {00000000-0000-0000-0000-000000000000}
+template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
+templatekey: Action
+
+----field----
+field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
+name: Type
+key: type
+content-length: 72
+
+Sitecore.Rules.ConditionalRenderings.SetDataSourceAction,Sitecore.Kernel
+----version----
+language: da
+version: 1
+revision: 3c22fcd1-3efc-43a0-a432-afc597ecae18
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 67
+
+angiv data source til [DataSource,Tree,root=/sitecore/content,Item]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+Angiv datakilde
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T122952:634148801921883750
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3c22fcd1-3efc-43a0-a432-afc597ecae18
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T122952:634148801921883750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 6101b0a1-4718-4f49-bd21-38035f719e1a
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 67
+
+Datenquelle festlegen [DataSource,Tree,root=/sitecore/content,Item]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220155
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6101b0a1-4718-4f49-bd21-38035f719e1a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220155
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 1b790b32-dcaf-425c-89d3-393c8c70f6d8
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 64
+
+set data source to [DataSource,Tree,root=/sitecore/content,Item]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080925T143153
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1b790b32-dcaf-425c-89d3-393c8c70f6d8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20081002T160423:633585602638077206
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: f55ef174-b469-4cf6-a697-d731f20eb374
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 62
+
+データソースを [DataSource,Tree,root=/sitecore/content,特定のアイテム] に設定する
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+データソース設定
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123255:634148803759383750
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f55ef174-b469-4cf6-a697-d731f20eb374
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123255:634148803759383750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

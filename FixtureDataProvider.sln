@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleSitecoreProject", "SampleSitecoreProject\SampleSitecoreProject.csproj", "{FC92B98A-6CB9-43B8-89BD-66505A27E42F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56449AB1-8BAB-4770-9DEE-7084B99573CD}"
+	ProjectSection(SolutionItems) = preProject
+		FixtureDataProvider.vsmdi = FixtureDataProvider.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixtureDataProvider", "FixtureDataProvider\FixtureDataProvider.csproj", "{65798DD2-C992-413B-A36C-9ED488631FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleTestProject", "SampleTestProject\SampleTestProject.csproj", "{B65D3336-8F85-4E8B-B4C8-F3378D9FFB9E}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FixtureDataProvider.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC92B98A-6CB9-43B8-89BD-66505A27E42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC92B98A-6CB9-43B8-89BD-66505A27E42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC92B98A-6CB9-43B8-89BD-66505A27E42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC92B98A-6CB9-43B8-89BD-66505A27E42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65798DD2-C992-413B-A36C-9ED488631FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65798DD2-C992-413B-A36C-9ED488631FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65798DD2-C992-413B-A36C-9ED488631FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65798DD2-C992-413B-A36C-9ED488631FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B65D3336-8F85-4E8B-B4C8-F3378D9FFB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65D3336-8F85-4E8B-B4C8-F3378D9FFB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65D3336-8F85-4E8B-B4C8-F3378D9FFB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65D3336-8F85-4E8B-B4C8-F3378D9FFB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

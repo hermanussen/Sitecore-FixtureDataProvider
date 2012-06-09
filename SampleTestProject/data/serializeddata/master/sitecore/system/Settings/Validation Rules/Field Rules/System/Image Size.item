@@ -1,0 +1,222 @@
+----item----
+version: 1
+id: {B7DA705D-BD91-4DB0-A0AD-A9A05FE6F4AA}
+database: master
+path: /sitecore/system/Settings/Validation Rules/Field Rules/System/Image Size
+parent: {EC98B276-8777-4164-8F7B-6BBBFEF0B8FA}
+name: Image Size
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F8E2549-C77F-4860-B83B-54FA31E2BEFA}
+templatekey: Validation Rule
+
+----field----
+field: {43A829D1-43DA-465C-B772-EBAA0D515E3E}
+name: Type
+key: type
+content-length: 75
+
+Sitecore.Data.Validators.FieldValidators.ImageSizeValidator,Sitecore.Kernel
+----field----
+field: {8F9D8603-2E34-4C5F-B0BB-F0D91EB956CA}
+name: Parameters
+key: parameters
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: 75780e7e-3256-4556-bcb0-e0fea1c5439e
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 26
+
+Har gyldig billedstørrelse
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 79
+
+Billedet er for stort til at blive gemt i databasen eller til at blive resized.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+Billedstørrelse
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T122954:634148801942040000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+75780e7e-3256-4556-bcb0-e0fea1c5439e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T122954:634148801942040000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 60130503-dddd-4526-8726-00f00bc835af
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 20
+
+Has Valid Image Size
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 85
+
+The image file size must be small enough to be stored in the database and be resized.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071113T174142
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+60130503-dddd-4526-8726-00f00bc835af
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20071113T174150
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: 05903301-6f3d-4df9-bdd0-a901b4ed0db9
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 19
+
+有効なイメージ サイズが設定されている
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 53
+
+イメージ ファイルのサイズは、データベースに格納して、サイズを変更するためには十分に小さい必要があります。
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+画像サイズ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123128:634148802887508750
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+05903301-6f3d-4df9-bdd0-a901b4ed0db9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123128:634148802887508750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

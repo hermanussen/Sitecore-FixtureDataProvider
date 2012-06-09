@@ -1,0 +1,276 @@
+----item----
+version: 1
+id: {CBEB8BB8-94E1-4DF4-BF8C-249704AD4452}
+database: master
+path: /sitecore/system/Settings/Rules/Item Deleted/Rules/Clear Script Cache
+parent: {CCA73DEE-D66C-4534-B86E-2CA23DF3EA25}
+name: Clear Script Cache
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
+templatekey: Rule
+
+----field----
+field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
+name: Rule
+key: rule
+content-length: 1409
+
+<ruleset>
+  <rule>
+    <conditions>
+      <or uid="{F9ECBE90-E3DD-4707-B14B-11B45296CC9F}">
+        <or uid="{28217A8A-4FAE-4E72-9F74-3087B8810F91}">
+          <or uid="{AFD57B41-2C31-4F65-99C9-48B89C6E5E27}">
+            <or uid="{9AB5246F-4F21-4549-A602-B7963F65DE96}">
+              <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="{BD3C62B6-113C-4119-992F-3E5E424B16CC}" templateid="{F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}" />
+              <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="{84D83775-1275-40A6-B3BB-CA5281F72E39}" templateid="{40CA4912-1224-4F0B-919F-C4FE11A7A004}" />
+            </or>
+            <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="{4AD0377A-843C-4D70-8BBB-079F16D46916}" templateid="{F0D16EEE-3A05-4E43-A082-795A32B873C0}" />
+          </or>
+          <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="{3651B0B0-7401-4C6F-83AD-C236FE0C3757}" templateid="{D9BDF22F-6E17-47F3-AB64-49C717BA92DA}" />
+        </or>
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="{4D3293C6-AA09-4BE0-89DF-FA707A8AF5B5}" templateid="{AB6DD55D-75E3-4A02-9793-7054ED90FCB6}" />
+      </or>
+    </conditions>
+    <actions>
+      <action id="{94C5C335-0902-4B45-B528-11B220005DD7}" uid="{40EB6906-5525-4128-8C74-F358A65DB3E6}" scriptid="{5862787E-DD1B-4555-9C1C-4EFAD12AFD51}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: da
+version: 1
+revision: 8f5f63b2-59dc-4883-be76-24aba3f009b8
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 16
+
+Tøm script cache
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+Tøm script cache
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T122953:634148801938133750
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8f5f63b2-59dc-4883-be76-24aba3f009b8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T122953:634148801938133750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 64403212-a5be-45bd-9acf-92615abfdeef
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 20
+
+Skript Cache löschen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220158
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+64403212-a5be-45bd-9acf-92615abfdeef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220158
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 35f618bd-c668-4243-985b-c71468acc769
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 18
+
+Clear Script Cache
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20081209T114508
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+35f618bd-c668-4243-985b-c71468acc769
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20081209T114508:633644199082454925
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: a0e4e339-c254-4252-af42-a2f33ace077c
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 15
+
+スクリプト キャッシュのクリア
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+スクリプト キャッシュのクリア
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123037:634148802378290000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a0e4e339-c254-4252-af42-a2f33ace077c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123037:634148802378290000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

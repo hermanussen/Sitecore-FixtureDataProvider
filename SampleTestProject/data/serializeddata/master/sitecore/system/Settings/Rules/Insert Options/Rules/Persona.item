@@ -1,0 +1,267 @@
+----item----
+version: 1
+id: {AE42C736-CD4C-4DEE-B872-F54912AEC037}
+database: master
+path: /sitecore/system/Settings/Rules/Insert Options/Rules/Persona
+parent: {FF0BC016-2D01-4F55-A020-EF6FC2FE7559}
+name: Persona
+master: {00000000-0000-0000-0000-000000000000}
+template: {664E5035-EB8C-4BA1-9731-A098FCC9127A}
+templatekey: Insert Options Rule
+
+----field----
+field: {FA307B86-DA2A-44BD-887D-E2057CDB4948}
+name: Rule
+key: rule
+content-length: 669
+
+<ruleset>
+  <rule>
+    <conditions>
+      <and uid="{DC0C2263-6BE7-4A1A-BB8E-789AD8E70522}">
+        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="{16986651-A29E-4B02-8A0C-B69AE7B7981F}" itemid="{5B3FE22D-1DC9-4CC4-9665-1A3F2DDD6732}" />
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="{9F24CF8B-208C-4F73-85F7-3E6CF74BFE54}" templateid="{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="{F1E653AA-B941-4B4F-8372-CC3B29CA3976}" insertoptionid="{8749F3D5-3EB9-43D8-8AC5-DFDCAEC19489}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: da
+version: 1
+revision: fb76fb2d-bb4b-4884-a7bc-a2f089be1acd
+
+----field----
+field: {9E0287D9-AF90-41AD-8D36-332375E194D6}
+name: Name
+key: name
+content-length: 130
+
+Når elementet er et underelement til 'Rapportfiltre' og datatemplaten er baseret på 'Mappe', tilføj persona oprettelsesmuligheder.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+Når person
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T122953:634148801937821250
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fb76fb2d-bb4b-4884-a7bc-a2f089be1acd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T122953:634148801937821250
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 02a4eb96-79ad-434b-96f4-234d3ca8db48
+
+----field----
+field: {9E0287D9-AF90-41AD-8D36-332375E194D6}
+name: Name
+key: name
+content-length: 109
+
+Wenn das Item ein Subitem von Report Filtern ist und vom Typ Folder, fügen Sie die Persona Insert Option ein.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220157
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+02a4eb96-79ad-434b-96f4-234d3ca8db48
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220157
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ada4fd14-1e7d-4ce4-b736-4b66f7b849cf
+
+----field----
+field: {9E0287D9-AF90-41AD-8D36-332375E194D6}
+name: Name
+key: name
+content-length: 94
+
+When item is a subitem of Report Filters and the template is folder, add Persona insert option
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090106T091504
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ada4fd14-1e7d-4ce4-b736-4b66f7b849cf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090528T145809:633791194892009256
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: b483df08-65b9-4a7d-8ca3-7636dea096b7
+
+----field----
+field: {9E0287D9-AF90-41AD-8D36-332375E194D6}
+name: Name
+key: name
+content-length: 53
+
+アイテムがアクションのサブアイテムおよびテンプレート フォルダーの場合、ペルソナを挿入オプションに追加する
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+ペルソナ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123207:634148803273602500
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b483df08-65b9-4a7d-8ca3-7636dea096b7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123357:634148804370008750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,222 @@
+----item----
+version: 1
+id: {9088ACFD-9F36-4E89-9663-12D4286FFBAF}
+database: master
+path: /sitecore/system/Settings/Validation Rules/Item Rules/Media/Media Size Too Big
+parent: {814DDEA2-1229-4285-809D-A6E563AA8351}
+name: Media Size Too Big
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F8E2549-C77F-4860-B83B-54FA31E2BEFA}
+templatekey: Validation Rule
+
+----field----
+field: {43A829D1-43DA-465C-B772-EBAA0D515E3E}
+name: Type
+key: type
+content-length: 74
+
+Sitecore.Data.Validators.ItemValidators.MediaSizeValidator,Sitecore.Kernel
+----field----
+field: {B3607D43-E523-494E-9AFF-102678D11670}
+name: Use Thread
+key: use thread
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: b3e394eb-40b3-4e69-be4e-ac6341e3809f
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 38
+
+Er medie størrelse tilstrækkelig lille
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 112
+
+Størrelsen af medie filen skal være tilstrækkelig lille til at kunne lagres i databasen og til at blive resized.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 28
+
+Medie størrelsen er for stor
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T122955:634148801953602500
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b3e394eb-40b3-4e69-be4e-ac6341e3809f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T122955:634148801953602500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 8a0faa5f-d521-4732-997b-a2fab9496e49
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 26
+
+Is Media Size Small Enough
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 91
+
+The size of the media file must be small enough to store in the database and to be resized.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071107T112155
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8a0faa5f-d521-4732-997b-a2fab9496e49
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20071107T112214
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: c7c73718-86c4-4b9f-bf66-37e7e61943a2
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 15
+
+メディア サイズが十分に小さい
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 53
+
+イメージ ファイルのサイズは、データベースに格納して、サイズを変更するためには十分に小さい必要があります。
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+メディアのサイズが大きい
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123146:634148803067665000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c7c73718-86c4-4b9f-bf66-37e7e61943a2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123146:634148803067665000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

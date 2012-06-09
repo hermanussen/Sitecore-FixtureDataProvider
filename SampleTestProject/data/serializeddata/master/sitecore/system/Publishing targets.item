@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {D9E44555-02A6-407A-B4FC-96B9026CAADD}
+database: master
+path: /sitecore/system/Publishing targets
+parent: {13D6D6C6-C50B-4BBD-B331-2B04F1A58F21}
+name: Publishing targets
+master: {00000000-0000-0000-0000-000000000000}
+template: {239F9CF4-E5A0-44E0-B342-0F32CD4C6D8B}
+templatekey: Node
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+Network/16x16/server_earth.png
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{E130C748-C13B-40D5-B6C6-4B150DC3FAB3}
+----version----
+language: en
+version: 1
+revision: 9d2fd11b-c846-4183-bcf6-c366d8dd9257
+
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9d2fd11b-c846-4183-bcf6-c366d8dd9257
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20080130T090954
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

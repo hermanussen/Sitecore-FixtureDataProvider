@@ -1,0 +1,208 @@
+----item----
+version: 1
+id: {42D0D5CE-D69D-48FE-AE79-DFC76101C00E}
+database: master
+path: /sitecore/system/Marketing Center/Analytics Filters/Report Filters/Visitors/Visitor is Human
+parent: {2367A733-12A2-433D-B0A1-7EA2D4E8B586}
+name: Visitor is Human
+master: {00000000-0000-0000-0000-000000000000}
+template: {8749F3D5-3EB9-43D8-8AC5-DFDCAEC19489}
+templatekey: Predefined Filter
+
+----field----
+field: {71522732-E883-4DDD-986D-0770566D69A5}
+name: Filter
+key: filter
+content-length: 193
+
+<filters>  <filter id="{813D541B-5DF0-4646-8F10-C7A20E5EA4AF}" uid="{5CE91023-F202-4299-8FC8-F78183EEE2FD}" operatorid="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" identification="900" /></filters>
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 23
+
+Flags/32x32/flag_eu.png
+----version----
+language: da
+version: 1
+revision: 994527c5-4eaa-4ae5-96e9-1f210413144d
+
+----field----
+field: {EA657A94-9004-4F40-86C1-A2A6A5F56D11}
+name: Header
+key: header
+content-length: 30
+
+Når den besøgende er personlig
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+Besøgende er personlig
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220141
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+994527c5-4eaa-4ae5-96e9-1f210413144d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220141
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ac2d4d27-ff6e-415e-a040-281603470990
+
+----field----
+field: {EA657A94-9004-4F40-86C1-A2A6A5F56D11}
+name: Header
+key: header
+content-length: 26
+
+where the visitor is human
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090106T091650
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ac2d4d27-ff6e-415e-a040-281603470990
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090120T164311:633680665913969817
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\Adminjc
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: cc077a5c-9808-4f54-a86c-bcff5a9801de
+
+----field----
+field: {EA657A94-9004-4F40-86C1-A2A6A5F56D11}
+name: Header
+key: header
+content-length: 11
+
+条件： ビジターが人間
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+人間
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123353:634148804338446250
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cc077a5c-9808-4f54-a86c-bcff5a9801de
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123359:634148804397977500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

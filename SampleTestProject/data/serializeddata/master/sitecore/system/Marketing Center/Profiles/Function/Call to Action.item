@@ -1,0 +1,194 @@
+----item----
+version: 1
+id: {9581F4A4-B83D-4F37-9814-59226398566F}
+database: master
+path: /sitecore/system/Marketing Center/Profiles/Function/Call to Action
+parent: {BA06B827-C6F2-4748-BD75-AA178B770E83}
+name: Call to Action
+master: {00000000-0000-0000-0000-000000000000}
+template: {44AB5107-3C73-42F0-A427-BEC549F944B9}
+templatekey: Profile Key
+
+----field----
+field: {2E1A9AAB-F7C1-49EE-B032-28B98D3688D6}
+name: Name
+key: name
+content-length: 14
+
+Call to Action
+----field----
+field: {6B9BDC53-4E76-4DB7-8C37-E448F74CD918}
+name: Control
+key: control
+content-length: 38
+
+{CCB5958B-B0F5-441A-9634-2E4C73E7D062}
+----field----
+field: {271D7B0F-446C-4F24-BFE7-E33C20BF7A41}
+name: MinValue
+key: minvalue
+content-length: 1
+
+0
+----field----
+field: {12E2C64A-5F08-4948-86C8-55AE06AFEEF8}
+name: MaxValue
+key: maxvalue
+content-length: 2
+
+10
+----version----
+language: da
+version: 1
+revision: eed92eba-1c78-4a8e-bc03-0a94aa969fa1
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Kør handling
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223301
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eed92eba-1c78-4a8e-bc03-0a94aa969fa1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223301
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 82de6a60-f87c-4b60-bedd-f3a078fdc11e
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20081211T095440
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+82de6a60-f87c-4b60-bedd-f3a078fdc11e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090609T101920:633801395602251394
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 929dfaf8-9138-4719-9dae-7ba17200e4ff
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+アクション プラン
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123031:634148802314071250
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+929dfaf8-9138-4719-9dae-7ba17200e4ff
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123031:634148802314071250
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

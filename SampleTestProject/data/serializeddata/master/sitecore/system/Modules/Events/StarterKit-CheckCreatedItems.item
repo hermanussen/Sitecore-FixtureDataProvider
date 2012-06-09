@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {A3856E1E-FFBD-4663-BA84-8A0E1ADE179B}
+database: master
+path: /sitecore/system/Modules/Events/StarterKit-CheckCreatedItems
+parent: {67DFCA37-0B80-413A-A6ED-B090CDC63D62}
+name: StarterKit-CheckCreatedItems
+master: {00000000-0000-0000-0000-000000000000}
+template: {BD7F8B2D-D07F-42BA-97D8-52595110F686}
+templatekey: Event Ticket
+
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 5ab9b594-ef6b-44f1-884c-48b9ccfd6808
+
+----field----
+field: {58E54548-5B48-4295-BB24-8E5984EC8B7D}
+name: Name
+key: name
+content-length: 12
+
+item:created
+----field----
+field: {4B7A2631-0385-4A4D-8E9A-17980A02CF98}
+name: Type
+key: type
+content-length: 56
+
+Sitecore.Starterkit.EventSubscriber, Sitecore.StarterKit
+----field----
+field: {8A71D94F-91B3-4EFA-9EF2-B9FAE6B453F9}
+name: Method
+key: method
+content-length: 22
+
+CheckForNewEventTicket
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20081112T114957
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5ab9b594-ef6b-44f1-884c-48b9ccfd6808
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20081112T120147:633620881070864525
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

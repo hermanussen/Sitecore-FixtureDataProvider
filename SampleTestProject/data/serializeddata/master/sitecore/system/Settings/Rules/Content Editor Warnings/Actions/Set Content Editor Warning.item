@@ -1,0 +1,194 @@
+----item----
+version: 1
+id: {B7F73976-7586-4E9C-A5F2-1E2BC68C5BE3}
+database: master
+path: /sitecore/system/Settings/Rules/Content Editor Warnings/Actions/Set Content Editor Warning
+parent: {F7915E95-EC30-479F-9C5F-503A8CEAFBD2}
+name: Set Content Editor Warning
+master: {00000000-0000-0000-0000-000000000000}
+template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
+templatekey: Action
+
+----field----
+field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
+name: Type
+key: type
+content-length: 82
+
+Sitecore.Rules.ContentEditorWarnings.SetContentEditorWarningAction,Sitecore.Kernel
+----version----
+language: da
+version: 1
+revision: c42556a3-257b-43cf-8eb4-af18f1524f90
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 64
+
+vis Indholds Redigeringsadvarsel: [title,,,Title], [text,,,Text]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 36
+
+Angiv advarsel i Indholds Redigering
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223304
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c42556a3-257b-43cf-8eb4-af18f1524f90
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223304
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 50e7196c-f9a6-42b9-a5d7-5251317c86ce
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 59
+
+show content editor warning: [title,,,Title], [text,,,Text]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080923T084301
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+50e7196c-f9a6-42b9-a5d7-5251317c86ce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100310T185158:634038439186590661
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 66c8692c-fddb-43f5-a264-0da76c00bd45
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 49
+
+コンテンツ エディター警告を表示する： [title,,,タイトル], [text,,,テキスト]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+コンテンツ エディター警告を設定
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T223304
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+66c8692c-fddb-43f5-a264-0da76c00bd45
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T223304
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

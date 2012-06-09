@@ -1,0 +1,201 @@
+----item----
+version: 1
+id: {D5FDF44D-37D8-4235-8D06-29CE46B63C33}
+database: master
+path: /sitecore/system/Settings/Analytics/Page Events/Register For Event
+parent: {633273C1-02A5-4EBC-9B82-BD1A7C684FEA}
+name: Register For Event
+master: {00000000-0000-0000-0000-000000000000}
+template: {059CFBDF-49FC-4F14-A4E5-B63E1E1AFB1E}
+templatekey: Page Event
+
+----field----
+field: {AC6BA888-4213-43BD-B787-D8DA2B6B881F}
+name: Name
+key: name
+content-length: 18
+
+Register for Event
+----field----
+field: {9DC03E48-6D83-40E0-A45E-5F5673386AC3}
+name: Icon
+key: icon
+content-length: 28
+
+Applications/16x16/Flash.png
+----field----
+field: {797466F5-763B-4299-B6AD-E4192BF21222}
+name: Description
+key: description
+content-length: 32
+
+User has registered for an event
+----field----
+field: {AC3BC9B6-46A2-4EAD-AF5E-6BDB532EB832}
+name: IsGoal
+key: isgoal
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: d893371e-31e3-4678-83a2-46b230b6fe7e
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+Register for event
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110120T220147
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d893371e-31e3-4678-83a2-46b230b6fe7e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20110120T220147
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: a4141de6-33fd-427e-ab2f-14cf74514079
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090122T174718
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\adminjc
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a4141de6-33fd-427e-ab2f-14cf74514079
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090602T123113:633795426730252597
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: 00e20a60-7a72-4f2d-b215-619d88ee558d
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+イベントの登録
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20100716T123223:634148803432196250
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+00e20a60-7a72-4f2d-b215-619d88ee558d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100716T123223:634148803432196250
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

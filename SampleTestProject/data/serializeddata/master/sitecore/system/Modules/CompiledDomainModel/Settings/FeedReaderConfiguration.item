@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {8DE47DBF-CBBC-4216-B7B9-63C0296A388A}
+database: master
+path: /sitecore/system/Modules/CompiledDomainModel/Settings/FeedReaderConfiguration
+parent: {3E324911-0B5C-449A-AD9F-1AE18465AB03}
+name: FeedReaderConfiguration
+master: {00000000-0000-0000-0000-000000000000}
+template: {110609B8-FDF0-4280-9F08-5A8B81D03F96}
+templatekey: FixedPathSet
+
+----field----
+field: {B96A388C-6676-4F61-BAD9-C8D21C3F18BE}
+name: Fixed tree locations
+key: fixed tree locations
+content-length: 77
+
+{65163E61-BCA0-4746-817F-FDD475A1C320}|{AFB27B25-41E5-4CFD-8C95-E40B9A95FA69}
+----field----
+field: {3ED7DE4D-F4FE-4081-8965-BD5604C8766E}
+name: Relative fixed tree locations
+key: relative fixed tree locations
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: bbacb26a-d6f2-4831-8998-75144d3ef76d
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20101204T111000
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bbacb26a-d6f2-4831-8998-75144d3ef76d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110509T192732:634405660522529453
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
