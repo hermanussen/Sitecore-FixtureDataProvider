@@ -39,6 +39,8 @@ namespace FixtureDataProvider
         protected List<KeyValuePair<ID, SyncItem>> ItemsByParentId { get; private set; }
         protected List<IDataHandler> DataHandlers { get; private set; }
 
+        protected IDictionary<Guid, byte[]> Blobs { get; private set; }
+
         /// <summary>
         /// Creates a new fixture data provider and reads the data into it.
         /// </summary>
@@ -49,6 +51,8 @@ namespace FixtureDataProvider
             
             ItemsById = new Dictionary<ID, SyncItem>();
             ItemsByParentId = new List<KeyValuePair<ID,SyncItem>>();
+
+            Blobs = new Dictionary<Guid, byte[]>();
 
             DataHandlers = new List<IDataHandler>();
             string[] sourcesArray = sources.Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries);
@@ -440,6 +444,47 @@ namespace FixtureDataProvider
         public override ID GetRootID(CallContext context)
         {
             return Sitecore.ItemIDs.RootID;
+        }
+
+        /// <summary>
+        /// Check if blob data (like media library contents) is available.
+        /// </summary>
+        /// <param name="blobId"></param>
+        /// <param name="context"></param>
+        /// <returns></returns>
+        public override bool BlobStreamExists(Guid blobId, CallContext context)
+        {
+            return Blobs.ContainsKey(blobId);
+        }
+
+        /// <summary>
+        /// Get the binary blob data (like media library contents).
+        /// </summary>
+        /// <param name="blobId"></param>
+        /// <param name="context"></param>
+        /// <returns></returns>
+        public override Stream GetBlobStream(Guid blobId, CallContext context)
+        {
+            if (Blobs.ContainsKey(blobId))
+            {
+                return new MemoryStream(Blobs[blobId]);
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Set the binary blob data (like media library contents).
+        /// </summary>
+        /// <param name="stream"></param>
+        /// <param name="blobId"></param>
+        /// <param name="context"></param>
+        /// <returns></returns>
+        public override bool SetBlobStream(Stream stream, Guid blobId, CallContext context)
+        {
+            MemoryStream memoryStream = new MemoryStream();
+            stream.CopyTo(memoryStream);
+            Blobs[blobId] = memoryStream.ToArray();
+            return true;
         }
 
         /// <summary>

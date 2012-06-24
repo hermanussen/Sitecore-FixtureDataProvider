@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using Sitecore.Data.Items;
 using System.Xml.Linq;
+using System.IO;
+using Sitecore.Data;
+using Sitecore.Resources.Media;
 
 namespace SampleSitecoreProject
 {
@@ -68,6 +71,26 @@ namespace SampleSitecoreProject
                     }
                 }
             }
+        }
+
+        /// <summary>
+        /// Imports an image into the root of the Sitecore media library
+        /// </summary>
+        /// <param name="sampleImage"></param>
+        public static void ImportImage(string sampleImage)
+        {
+            FileInfo imageFile = new FileInfo(sampleImage);
+            Item parentItem = Sitecore.Context.Database.GetItem("/sitecore/media library");
+            
+            var mediaCreatorOptions = new MediaCreatorOptions();
+            mediaCreatorOptions.Database = Sitecore.Context.Database;
+            mediaCreatorOptions.Language = Sitecore.Context.Language;
+            mediaCreatorOptions.Versioned = false;
+            mediaCreatorOptions.Destination = string.Format("{0}/{1}", parentItem.Paths.FullPath, ItemUtil.ProposeValidItemName(Path.GetFileNameWithoutExtension(sampleImage)));
+            mediaCreatorOptions.FileBased = Sitecore.Configuration.Settings.Media.UploadAsFiles;
+
+            var mc = new MediaCreator();
+            mc.CreateFromFile(sampleImage, mediaCreatorOptions);
         }
     }
 }

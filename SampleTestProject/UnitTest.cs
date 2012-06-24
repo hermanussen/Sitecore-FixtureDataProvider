@@ -8,6 +8,7 @@ using FixtureDataProvider.Test;
 using System.Configuration;
 using Sitecore.Data.Items;
 using System.Xml;
+using System.IO;
 
 namespace SampleTestProject
 {
@@ -71,6 +72,28 @@ namespace SampleTestProject
             {
                 Assert.AreEqual("'<' is an unexpected token. The expected token is '>'. Line 291, position 7.", exc.Message);
             }
+        }
+
+        [TestMethod]
+        [Description("Tests the import of an image into the media library")]
+        public void TestImageImport()
+        {
+            string sampleImage = ConfigurationManager.AppSettings["sampleimage"];
+            SampleSitecoreLogic.ImportImage(sampleImage);
+
+            // Get the imported media item
+            MediaItem imported = new MediaItem(Sitecore.Context.Database.GetItem("/sitecore/media library/Cdm"));
+
+            Assert.IsNotNull(imported, "Imported image could not be found");
+            Assert.AreEqual("Image", imported.InnerItem.TemplateName);
+
+            // Get the imported image data and put it in a memory stream
+            MemoryStream memoryStream = new MemoryStream();
+            imported.GetMediaStream().CopyTo(memoryStream);
+
+            Assert.IsTrue(
+                Sitecore.IO.FileUtil.ReadBinaryFile(sampleImage).SequenceEqual(memoryStream.ToArray()),
+                "The imported image's content is different from the file");
         }
     }
 }
