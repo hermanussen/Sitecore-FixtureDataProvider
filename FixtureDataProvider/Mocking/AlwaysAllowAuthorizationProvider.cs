@@ -15,23 +15,22 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
 using Sitecore.Security.AccessControl;
+using Sitecore.Security.Accounts;
 
 namespace FixtureDataProvider.Mocking
 {
     /// <summary>
-    /// An authorization provider that allows anything.
-    /// Intended for use in unit tests that do not require to test security aspects.
+    ///     An authorization provider that allows anything.
+    ///     Intended for use in unit tests that do not require to test security aspects.
     /// </summary>
     public class AlwaysAllowAuthorizationProvider : AuthorizationProvider
     {
-        protected override AccessResult GetAccessCore(ISecurable entity, Sitecore.Security.Accounts.Account account, AccessRight accessRight)
+        protected override AccessResult GetAccessCore(ISecurable entity, Account account, AccessRight accessRight)
         {
-            return new AccessResult(AccessPermission.Allow, new AccessExplanation("Always allow authorization provider used"));
+            return new AccessResult(AccessPermission.Allow,
+                new AccessExplanation("Always allow authorization provider used"));
         }
 
         public override AccessRuleCollection GetAccessRules(ISecurable entity)

@@ -15,47 +15,49 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Sitecore.Data.DataProviders;
-using Sitecore.Data;
-using Sitecore.Data.Serialization.ObjectModel;
-using Sitecore.Collections;
-using Sitecore.Diagnostics;
-using FixtureDataProvider.Data;
 using System.IO;
+using System.Linq;
+using FixtureDataProvider.Data;
+using Sitecore;
+using Sitecore.Collections;
+using Sitecore.Data;
+using Sitecore.Data.DataProviders;
+using Sitecore.Data.Items;
+using Sitecore.Data.Managers;
+using Sitecore.Data.Serialization.ObjectModel;
+using Sitecore.Diagnostics;
 using Sitecore.Globalization;
+using Version = Sitecore.Data.Version;
 
 namespace FixtureDataProvider
 {
     /// <summary>
-    /// An in-memory data provider for Sitecore that can read fixtures on startup and keeps track of changes in Sitecore as long as the program runs.
+    ///     An in-memory data provider for Sitecore that can read fixtures on startup and keeps track of changes in Sitecore as
+    ///     long as the program runs.
     /// </summary>
     public class FixtureDataProvider : DataProvider
     {
-        public IDictionary<ID, SyncItem> ItemsById { get; private set; }
-        protected List<KeyValuePair<ID, SyncItem>> ItemsByParentId { get; private set; }
-        protected List<IDataHandler> DataHandlers { get; private set; }
-
-        protected IDictionary<Guid, byte[]> Blobs { get; private set; }
-
         /// <summary>
-        /// Creates a new fixture data provider and reads the data into it.
+        ///     Creates a new fixture data provider and reads the data into it.
         /// </summary>
-        /// <param name="sources">Pipe separated paths to directories containing serialized data, directories containing TDS items or individual package files (zip)</param>
+        /// <param name="sources">
+        ///     Pipe separated paths to directories containing serialized data, directories containing TDS items
+        ///     or individual package files (zip)
+        /// </param>
         public FixtureDataProvider(string sources)
         {
             Assert.IsNotNullOrEmpty(sources, "You must provide sources to load items from");
-            
+
             ItemsById = new Dictionary<ID, SyncItem>();
-            ItemsByParentId = new List<KeyValuePair<ID,SyncItem>>();
+            ItemsByParentId = new List<KeyValuePair<ID, SyncItem>>();
 
             Blobs = new Dictionary<Guid, byte[]>();
 
             DataHandlers = new List<IDataHandler>();
-            string[] sourcesArray = sources.Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries);
+            string[] sourcesArray = sources.Split(new[] {'|'}, StringSplitOptions.RemoveEmptyEntries);
             foreach (string source in sourcesArray)
             {
                 if (source.EndsWith(".zip"))
@@ -73,8 +75,15 @@ namespace FixtureDataProvider
             LoadItems();
         }
 
+        public IDictionary<ID, SyncItem> ItemsById { get; private set; }
+        protected List<KeyValuePair<ID, SyncItem>> ItemsByParentId { get; private set; }
+        protected List<IDataHandler> DataHandlers { get; private set; }
+
+        protected IDictionary<Guid, byte[]> Blobs { get; private set; }
+
         /// <summary>
-        /// Returns a definition containing the id, name, template id, branch id and parent id of the Item that corresponds with the itemId parameter.
+        ///     Returns a definition containing the id, name, template id, branch id and parent id of the Item that corresponds
+        ///     with the itemId parameter.
         /// </summary>
         /// <param name="itemId">The item id to search for</param>
         /// <param name="context"></param>
@@ -83,13 +92,13 @@ namespace FixtureDataProvider
         {
             if (ItemsById.ContainsKey(itemId))
             {
-                PrefetchData data = new PrefetchData(
+                var data = new PrefetchData(
                     new ItemDefinition(
                         itemId,
                         ItemsById[itemId].Name,
                         ParseId(ItemsById[itemId].TemplateID) ?? ID.Null,
                         ParseId(ItemsById[itemId].BranchId) ?? ID.Null),
-                        ParseId(ItemsById[itemId].ParentID) ?? ID.Null);
+                    ParseId(ItemsById[itemId].ParentID) ?? ID.Null);
                 if (data != null)
                 {
                     return data.ItemDefinition;
@@ -99,7 +108,7 @@ namespace FixtureDataProvider
         }
 
         /// <summary>
-        /// Get a list of all available versions in different languages.
+        ///     Get a list of all available versions in different languages.
         /// </summary>
         /// <param name="itemDefinition">Used to identify the particular item</param>
         /// <param name="context"></param>
@@ -109,16 +118,16 @@ namespace FixtureDataProvider
             if (ItemsById.ContainsKey(itemDefinition.ID)
                 && ItemsById[itemDefinition.ID].Versions != null)
             {
-                List<VersionUri> versionsList = new List<VersionUri>();
+                var versionsList = new List<VersionUri>();
                 foreach (SyncVersion version in ItemsById[itemDefinition.ID].Versions)
                 {
-                    VersionUri newVersionUri = new VersionUri(
-                            Sitecore.Data.Managers.LanguageManager.GetLanguage(version.Language),
-                            new Sitecore.Data.Version(version.Version));
+                    var newVersionUri = new VersionUri(
+                        LanguageManager.GetLanguage(version.Language),
+                        new Version(version.Version));
                     versionsList.Add(newVersionUri);
                 }
 
-                VersionUriList versions = new VersionUriList();
+                var versions = new VersionUriList();
                 foreach (VersionUri version in versionsList)
                 {
                     versions.Add(version);
@@ -130,22 +139,23 @@ namespace FixtureDataProvider
         }
 
         /// <summary>
-        /// Get a list of all the item's fields and their values.
+        ///     Get a list of all the item's fields and their values.
         /// </summary>
         /// <param name="itemDefinition">Used to identify the particular item</param>
         /// <param name="versionUri">The language and version of the item to get field values for</param>
         /// <param name="context"></param>
         /// <returns></returns>
-        public override FieldList GetItemFields(ItemDefinition itemDefinition, VersionUri versionUri, CallContext context)
+        public override FieldList GetItemFields(ItemDefinition itemDefinition, VersionUri versionUri,
+            CallContext context)
         {
             Language language = versionUri.Language;
             if (Language.Invariant.Equals(language))
             {
-                language = Sitecore.Data.Managers.LanguageManager.DefaultLanguage;
+                language = LanguageManager.DefaultLanguage;
             }
             if (ItemsById.ContainsKey(itemDefinition.ID))
             {
-                FieldList fields = new FieldList();
+                var fields = new FieldList();
                 foreach (SyncField sharedField in ItemsById[itemDefinition.ID].SharedFields)
                 {
                     fields.Add(ParseId(sharedField.FieldID), sharedField.FieldValue);
@@ -173,19 +183,20 @@ namespace FixtureDataProvider
         }
 
         /// <summary>
-        /// Determines what items are children of the item and returns a list of their IDs.
+        ///     Determines what items are children of the item and returns a list of their IDs.
         /// </summary>
         /// <param name="itemDefinition">Used to identify the particular item</param>
         /// <param name="context"></param>
         /// <returns></returns>
         public override IDList GetChildIDs(ItemDefinition itemDefinition, CallContext context)
         {
-            var childItems = ItemsByParentId.Where(item => item.Key == itemDefinition.ID);
+            IEnumerable<KeyValuePair<ID, SyncItem>> childItems =
+                ItemsByParentId.Where(item => item.Key == itemDefinition.ID);
             return IDList.Build(childItems.Select(item => ParseId(item.Value.ID)).ToArray());
         }
 
         /// <summary>
-        /// Get the ID of the parent of an item. 
+        ///     Get the ID of the parent of an item.
         /// </summary>
         /// <param name="itemDefinition">Used to identify the particular item</param>
         /// <param name="context"></param>
@@ -195,14 +206,16 @@ namespace FixtureDataProvider
             if (ItemsById.ContainsKey(itemDefinition.ID)
                 && ItemsById[itemDefinition.ID].Versions != null)
             {
-                return string.IsNullOrWhiteSpace(ItemsById[itemDefinition.ID].ParentID) ? null : ParseId(ItemsById[itemDefinition.ID].ParentID);
+                return string.IsNullOrWhiteSpace(ItemsById[itemDefinition.ID].ParentID)
+                    ? null
+                    : ParseId(ItemsById[itemDefinition.ID].ParentID);
             }
             return null;
         }
 
         /// <summary>
-        /// Create a new item as a child of another item.
-        /// Note that this does not create any versions or field values.
+        ///     Create a new item as a child of another item.
+        ///     Note that this does not create any versions or field values.
         /// </summary>
         /// <param name="itemID">The item ID (not the parent's)</param>
         /// <param name="itemName">The name of the new item</param>
@@ -210,7 +223,8 @@ namespace FixtureDataProvider
         /// <param name="parent">The parent item's definition</param>
         /// <param name="context"></param>
         /// <returns></returns>
-        public override bool CreateItem(ID itemID, string itemName, ID templateID, ItemDefinition parent, CallContext context)
+        public override bool CreateItem(ID itemID, string itemName, ID templateID, ItemDefinition parent,
+            CallContext context)
         {
             if (ItemsById.ContainsKey(itemID))
             {
@@ -227,26 +241,30 @@ namespace FixtureDataProvider
                 }
             }
 
-            SyncItem newItem = new SyncItem()
-                    {
-                        ID = GetIdAsString(itemID),
-                        Name = itemName,
-                        TemplateID = GetIdAsString(templateID),
-                        ParentID = GetIdAsString(parent != null ? parent.ID : new ID(Guid.Empty)),
-                        ItemPath = parent == null ? string.Format("/{0}", itemName) : string.Format("{0}/{1}", GetItemPath(parent.ID), itemName),
-                        BranchId = GetIdAsString(new ID(Guid.Empty)),
-                        DatabaseName = Database.Name
-                    };
-            
+            var newItem = new SyncItem
+            {
+                ID = GetIdAsString(itemID),
+                Name = itemName,
+                TemplateID = GetIdAsString(templateID),
+                ParentID = GetIdAsString(parent != null ? parent.ID : new ID(Guid.Empty)),
+                ItemPath =
+                    parent == null
+                        ? string.Format("/{0}", itemName)
+                        : string.Format("{0}/{1}", GetItemPath(parent.ID), itemName),
+                BranchId = GetIdAsString(new ID(Guid.Empty)),
+                DatabaseName = Database.Name
+            };
+
             AddItem(newItem);
-            
-            AddVersion(new ItemDefinition(itemID, itemName, templateID, new ID(Guid.Empty)), new VersionUri(Language.Invariant, null), context);
+
+            AddVersion(new ItemDefinition(itemID, itemName, templateID, new ID(Guid.Empty)),
+                new VersionUri(Language.Invariant, null), context);
 
             return true;
         }
 
         /// <summary>
-        /// Changes the in-memory data when an item is moved to a different position in the tree.
+        ///     Changes the in-memory data when an item is moved to a different position in the tree.
         /// </summary>
         /// <param name="itemDefinition"></param>
         /// <param name="destination"></param>
@@ -264,14 +282,16 @@ namespace FixtureDataProvider
             SyncItem destinationIt = ItemsById[destination.ID];
 
             ItemsByParentId.RemoveAll(pair => pair.Key == parentId && pair.Value == item);
-            ItemsByParentId.Add(new KeyValuePair<ID,SyncItem>(destination.ID, item));
-            item.ItemPath = ItemsById.ContainsKey(parentId) ? string.Format("{0}/{1}", GetItemPath(parentId), item.Name) : string.Format("/{0}", item.Name);
+            ItemsByParentId.Add(new KeyValuePair<ID, SyncItem>(destination.ID, item));
+            item.ItemPath = ItemsById.ContainsKey(parentId)
+                ? string.Format("{0}/{1}", GetItemPath(parentId), item.Name)
+                : string.Format("/{0}", item.Name);
 
             return true;
         }
 
         /// <summary>
-        /// Creates a new version for a content item in a particular language.
+        ///     Creates a new version for a content item in a particular language.
         /// </summary>
         /// <param name="itemDefinition">Used to identify the particular item</param>
         /// <param name="baseVersion">The version to copy off of</param>
@@ -290,7 +310,7 @@ namespace FixtureDataProvider
             Language baseVersionLanguage = baseVersion.Language;
             if (Language.Invariant.Equals(baseVersionLanguage))
             {
-                baseVersionLanguage = Sitecore.Data.Managers.LanguageManager.DefaultLanguage;
+                baseVersionLanguage = LanguageManager.DefaultLanguage;
             }
 
             if (baseVersion.Version != null && baseVersion.Version.Number > 0)
@@ -305,13 +325,15 @@ namespace FixtureDataProvider
 
                 if (num > 0)
                 {
-                    SyncVersion newVersion = current.AddVersion(matchingVersion.Language, num.ToString(), matchingVersion.Revision);
-                    
-                    var currentFieldValues = matchingVersion.Fields;
+                    SyncVersion newVersion = current.AddVersion(matchingVersion.Language, num.ToString(),
+                        matchingVersion.Revision);
 
-                    foreach (var fieldValue in currentFieldValues)
+                    IList<SyncField> currentFieldValues = matchingVersion.Fields;
+
+                    foreach (SyncField fieldValue in currentFieldValues)
                     {
-                        newVersion.AddField(fieldValue.FieldID, fieldValue.FieldName, fieldValue.FieldKey, fieldValue.FieldValue, true);
+                        newVersion.AddField(fieldValue.FieldID, fieldValue.FieldName, fieldValue.FieldKey,
+                            fieldValue.FieldValue, true);
                     }
                 }
             }
@@ -327,7 +349,7 @@ namespace FixtureDataProvider
         }
 
         /// <summary>
-        /// Removes an item from the database completely.
+        ///     Removes an item from the database completely.
         /// </summary>
         /// <param name="itemDefinition">Used to identify the particular item</param>
         /// <param name="context"></param>
@@ -337,14 +359,19 @@ namespace FixtureDataProvider
             if (ItemsById.ContainsKey(itemDefinition.ID))
             {
                 // recursively remove descendants
-                foreach(var child in ItemsByParentId.Where(item => item.Key == itemDefinition.ID))
+                foreach (var child in ItemsByParentId.Where(item => item.Key == itemDefinition.ID))
                 {
-                    DeleteItem(new ItemDefinition(ParseId(child.Value.ID), child.Value.Name, ParseId(child.Value.TemplateID), ParseId(child.Value.BranchId)), context);
+                    DeleteItem(
+                        new ItemDefinition(ParseId(child.Value.ID), child.Value.Name, ParseId(child.Value.TemplateID),
+                            ParseId(child.Value.BranchId)), context);
                 }
 
                 // remove the item
                 ItemsById.Remove(itemDefinition.ID);
-                foreach (KeyValuePair<ID, SyncItem> remove in ItemsByParentId.Where(it => it.Value != null && it.Value.ID.Equals(GetIdAsString(itemDefinition.ID))).ToList())
+                foreach (
+                    var remove in
+                        ItemsByParentId.Where(
+                            it => it.Value != null && it.Value.ID.Equals(GetIdAsString(itemDefinition.ID))).ToList())
                 {
                     ItemsByParentId.Remove(remove);
                 }
@@ -355,13 +382,13 @@ namespace FixtureDataProvider
         }
 
         /// <summary>
-        /// Save changes that were made to an item to the database.
+        ///     Save changes that were made to an item to the database.
         /// </summary>
         /// <param name="itemDefinition">Used to identify the particular item</param>
         /// <param name="changes">A holder object that keeps track of the changes</param>
         /// <param name="context"></param>
         /// <returns></returns>
-        public override bool SaveItem(ItemDefinition itemDefinition, Sitecore.Data.Items.ItemChanges changes, CallContext context)
+        public override bool SaveItem(ItemDefinition itemDefinition, ItemChanges changes, CallContext context)
         {
             if (! ItemsById.ContainsKey(itemDefinition.ID))
             {
@@ -371,24 +398,29 @@ namespace FixtureDataProvider
             SyncItem current = ItemsById[itemDefinition.ID];
             if (changes.HasPropertiesChanged)
             {
-                current.Name = Sitecore.StringUtil.GetString(changes.GetPropertyValue("name"), itemDefinition.Name);
+                current.Name = StringUtil.GetString(changes.GetPropertyValue("name"), itemDefinition.Name);
 
-                ID templateId = Sitecore.MainUtil.GetObject(changes.GetPropertyValue("templateid"), itemDefinition.TemplateID) as ID;
+                var templateId =
+                    MainUtil.GetObject(changes.GetPropertyValue("templateid"), itemDefinition.TemplateID) as ID;
                 current.TemplateID = templateId != ID.Null ? GetIdAsString(templateId) : null;
 
-                ID branchId = Sitecore.MainUtil.GetObject(changes.GetPropertyValue("branchid"), itemDefinition.BranchId) as ID;
+                var branchId = MainUtil.GetObject(changes.GetPropertyValue("branchid"), itemDefinition.BranchId) as ID;
                 current.BranchId = branchId != ID.Null ? GetIdAsString(branchId) : null;
             }
             if (changes.HasFieldsChanged)
             {
-                foreach (Sitecore.Data.Items.FieldChange change in changes.FieldChanges)
+                foreach (FieldChange change in changes.FieldChanges)
                 {
                     string changeFieldId = GetIdAsString(change.FieldID);
-                    var matchingSharedFields = current.SharedFields.Where(fv => changeFieldId.Equals(fv.FieldID));
-                    var matchingVersions = current.Versions
-                        .Where(vr => vr.Version.Equals(change.Version.Number.ToString()) && vr.Language.Equals(change.Language.Name));
+                    IEnumerable<SyncField> matchingSharedFields =
+                        current.SharedFields.Where(fv => changeFieldId.Equals(fv.FieldID));
+                    IEnumerable<SyncVersion> matchingVersions = current.Versions
+                        .Where(
+                            vr =>
+                                vr.Version.Equals(change.Version.Number.ToString()) &&
+                                vr.Language.Equals(change.Language.Name));
                     var matchingNonSharedFields = matchingVersions
-                        .SelectMany(vr => vr.Fields.Select(fl => new { Ver = vr, Field = fl } ))
+                        .SelectMany(vr => vr.Fields.Select(fl => new {Ver = vr, Field = fl}))
                         .Where(fv => changeFieldId.Equals(fv.Field.FieldID));
                     if (change.RemoveField)
                     {
@@ -398,7 +430,8 @@ namespace FixtureDataProvider
                         }
                         if (matchingNonSharedFields.Any())
                         {
-                            matchingNonSharedFields.First().Ver.RemoveField(matchingNonSharedFields.First().Field.FieldName);
+                            matchingNonSharedFields.First()
+                                .Ver.RemoveField(matchingNonSharedFields.First().Field.FieldName);
                         }
                     }
                     else
@@ -418,11 +451,14 @@ namespace FixtureDataProvider
                         {
                             if (change.Definition.IsShared || change.Definition.IsUnversioned)
                             {
-                                current.AddSharedField(changeFieldId, change.Definition.Name, change.Definition.Key, change.Value, true);
+                                current.AddSharedField(changeFieldId, change.Definition.Name, change.Definition.Key,
+                                    change.Value, true);
                             }
-                            else if(matchingVersions.Any())
+                            else if (matchingVersions.Any())
                             {
-                                matchingVersions.First().AddField(changeFieldId, change.Definition.Name, change.Definition.Key, change.Value, true);
+                                matchingVersions.First()
+                                    .AddField(changeFieldId, change.Definition.Name, change.Definition.Key, change.Value,
+                                        true);
                             }
                         }
                     }
@@ -433,8 +469,11 @@ namespace FixtureDataProvider
 
         public override IdCollection GetTemplateItemIds(CallContext context)
         {
-            IdCollection ids = new IdCollection();
-            foreach (var id in ItemsById.Values.Where(it => Sitecore.TemplateIDs.Template == ParseId(it.TemplateID)).Select(it => ParseId(it.ID)))
+            var ids = new IdCollection();
+            foreach (
+                ID id in
+                    ItemsById.Values.Where(it => TemplateIDs.Template == ParseId(it.TemplateID))
+                        .Select(it => ParseId(it.ID)))
             {
                 ids.Add(id);
             }
@@ -443,11 +482,11 @@ namespace FixtureDataProvider
 
         public override ID GetRootID(CallContext context)
         {
-            return Sitecore.ItemIDs.RootID;
+            return ItemIDs.RootID;
         }
 
         /// <summary>
-        /// Check if blob data (like media library contents) is available.
+        ///     Check if blob data (like media library contents) is available.
         /// </summary>
         /// <param name="blobId"></param>
         /// <param name="context"></param>
@@ -458,7 +497,7 @@ namespace FixtureDataProvider
         }
 
         /// <summary>
-        /// Get the binary blob data (like media library contents).
+        ///     Get the binary blob data (like media library contents).
         /// </summary>
         /// <param name="blobId"></param>
         /// <param name="context"></param>
@@ -473,7 +512,7 @@ namespace FixtureDataProvider
         }
 
         /// <summary>
-        /// Set the binary blob data (like media library contents).
+        ///     Set the binary blob data (like media library contents).
         /// </summary>
         /// <param name="stream"></param>
         /// <param name="blobId"></param>
@@ -481,14 +520,14 @@ namespace FixtureDataProvider
         /// <returns></returns>
         public override bool SetBlobStream(Stream stream, Guid blobId, CallContext context)
         {
-            MemoryStream memoryStream = new MemoryStream();
+            var memoryStream = new MemoryStream();
             stream.CopyTo(memoryStream);
             Blobs[blobId] = memoryStream.ToArray();
             return true;
         }
 
         /// <summary>
-        /// Adds an item to the in-memory set of items.
+        ///     Adds an item to the in-memory set of items.
         /// </summary>
         /// <param name="syncItem"></param>
         protected void AddItem(SyncItem syncItem)
@@ -502,7 +541,7 @@ namespace FixtureDataProvider
         }
 
         /// <summary>
-        /// Clear all data and reload from the handlers.
+        ///     Clear all data and reload from the handlers.
         /// </summary>
         private void LoadItems()
         {
@@ -520,7 +559,9 @@ namespace FixtureDataProvider
 
         private string GetItemPath(ID id)
         {
-            return ItemsById.ContainsKey(id) ? string.Format("{0}/{1}", GetItemPath(ParseId(ItemsById[id].ParentID)), ItemsById[id].Name) : string.Empty;
+            return ItemsById.ContainsKey(id)
+                ? string.Format("{0}/{1}", GetItemPath(ParseId(ItemsById[id].ParentID)), ItemsById[id].Name)
+                : string.Empty;
         }
 
         private ID ParseId(string id)

@@ -15,27 +15,20 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Sitecore.Diagnostics;
 using System.IO;
-using Sitecore.Install;
-using Sitecore.Install.Serialization;
-using Sitecore.IO;
 using Sitecore.Data.Serialization.ObjectModel;
-using Sitecore.Data;
+using Sitecore.Diagnostics;
 
 namespace FixtureDataProvider.Data
 {
     /// <summary>
-    /// Loads fixture data items from a folder where items have been serialized (.item files).
+    ///     Loads fixture data items from a folder where items have been serialized (.item files).
     /// </summary>
     public class SerializedDataHandler : IDataHandler
     {
-        protected DirectoryInfo StartInfo { get; set; }
-
         public SerializedDataHandler(string startPath)
         {
             Assert.IsNotNullOrEmpty(startPath, "Please provide a path on the filesystem where serialized items are");
@@ -43,9 +36,11 @@ namespace FixtureDataProvider.Data
             Assert.IsTrue(StartInfo.Exists, string.Format("The path {0} could not be found", startPath));
         }
 
+        protected DirectoryInfo StartInfo { get; set; }
+
         public List<SyncItem> LoadItems()
         {
-            List<SyncItem> items = new List<SyncItem>();
+            var items = new List<SyncItem>();
 
             foreach (FileInfo itemFile in StartInfo.GetFiles("*.item", SearchOption.AllDirectories))
             {
@@ -55,11 +50,11 @@ namespace FixtureDataProvider.Data
                 }
                 catch (Exception exception)
                 {
-                    Console.WriteLine(string.Format("Unable to read item from file {0}: {1}", itemFile.FullName, exception.Message));
+                    Console.WriteLine("Unable to read item from file {0}: {1}", itemFile.FullName, exception.Message);
                 }
             }
 
-            Console.WriteLine(string.Format("Deserialized {0} items from {1}", items.Count, StartInfo.FullName));
+            Console.WriteLine("Deserialized {0} items from {1}", items.Count, StartInfo.FullName);
 
             return items;
         }
