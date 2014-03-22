@@ -49,7 +49,7 @@ namespace FixtureDataProvider
         /// </param>
         public FixtureDataProvider(string sources)
         {
-            Assert.IsNotNullOrEmpty(sources, "You must provide sources to load items from");
+//            Assert.IsNotNullOrEmpty(sources, "You must provide sources to load items from");
 
             ItemsById = new Dictionary<ID, SyncItem>();
             ItemsByParentId = new List<KeyValuePair<ID, SyncItem>>();
@@ -57,6 +57,9 @@ namespace FixtureDataProvider
             Blobs = new Dictionary<Guid, byte[]>();
 
             DataHandlers = new List<IDataHandler>();
+
+            if (string.IsNullOrEmpty(sources)) return;
+
             string[] sourcesArray = sources.Split(new[] {'|'}, StringSplitOptions.RemoveEmptyEntries);
             foreach (string source in sourcesArray)
             {
