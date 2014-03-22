@@ -85,6 +85,19 @@ namespace FixtureDataProvider
         protected IDictionary<Guid, byte[]> Blobs { get; private set; }
 
         /// <summary>
+        /// Cleans up database by removing all items from the in-memory storage
+        /// </summary>
+        /// <param name="context"></param>
+        /// <returns></returns>
+        public override bool CleanupDatabase(CallContext context)
+        {
+            ItemsById.Clear();
+            ItemsByParentId.Clear();
+
+            return true;
+        }
+
+        /// <summary>
         ///     Returns a definition containing the id, name, template id, branch id and parent id of the Item that corresponds
         ///     with the itemId parameter.
         /// </summary>
