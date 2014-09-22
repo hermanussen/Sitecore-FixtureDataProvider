@@ -15,16 +15,14 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-using System;
+
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Sitecore.Data.Serialization.ObjectModel;
 
 namespace FixtureDataProvider.Data
 {
     /// <summary>
-    /// A data handler can load fixture data items before unit tests are started.
+    ///     A data handler can load fixture data items before unit tests are started.
     /// </summary>
     public interface IDataHandler
     {

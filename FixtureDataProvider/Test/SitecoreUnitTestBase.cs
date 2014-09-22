@@ -15,76 +15,69 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Sitecore.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sitecore.Data.Events;
-using Sitecore.Security.Accounts;
+using Sitecore;
+using Sitecore.Collections;
 using Sitecore.Common;
+using Sitecore.Configuration;
+using Sitecore.Data;
+using Sitecore.Data.Events;
+using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
+using Sitecore.Security.Accounts;
+using Sitecore.Sites;
+using Sitecore.Web;
 
 namespace FixtureDataProvider.Test
 {
     /// <summary>
-    /// Base class that sets up the Sitecore configuration and provides some helper methods.
+    ///     Base class that sets up the Sitecore configuration and provides some helper methods.
     /// </summary>
     public abstract class SitecoreUnitTestBase
     {
-        /// <summary>
-        /// Constructor that sets the context database to 'master' and sets up a basic sitecontext.
-        /// </summary>
-        protected SitecoreUnitTestBase()
-        {
-            Sitecore.Context.Database = Factory.GetDatabase("master");
-            Sitecore.Context.Site = new Sitecore.Sites.SiteContext(new Sitecore.Web.SiteInfo(new Sitecore.Collections.StringDictionary()));
-        }
-
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
-
         private static Stack<EventDisablerState> eventDisablerStack;
         private static Stack<bool> cacheDisablerStack;
         private static Stack<User> userStack;
 
         /// <summary>
-        /// Disables events, database cache and sets a user context (sitecore\admin)
+        ///     Constructor that sets the context database to 'master' and sets up a basic sitecontext.
+        /// </summary>
+        protected SitecoreUnitTestBase()
+        {
+            Context.Database = Factory.GetDatabase("master");
+            Context.Site = new SiteContext(new SiteInfo(new StringDictionary()));
+        }
+
+        /// <summary>
+        ///     Gets or sets the test context which provides
+        ///     information about and functionality for the current test run.
+        /// </summary>
+        public TestContext TestContext { get; set; }
+
+        /// <summary>
+        ///     Disables events, database cache and sets a user context (sitecore\admin)
         /// </summary>
         /// <param name="testContext"></param>
-        [ClassInitialize()]
+        [ClassInitialize]
         public static void Initialize(TestContext testContext)
         {
             eventDisablerStack = new Stack<EventDisablerState>();
             eventDisablerStack.Push(EventDisablerState.Disabled);
-            Sitecore.Context.Items[Switcher<EventDisablerState, EventDisabler>.ItemsKey] = eventDisablerStack;
+            Context.Items[Switcher<EventDisablerState, EventDisabler>.ItemsKey] = eventDisablerStack;
 
             cacheDisablerStack = new Stack<bool>();
             cacheDisablerStack.Push(true);
-            Sitecore.Context.Items[Switcher<bool, Sitecore.Data.DatabaseCacheDisabler>.ItemsKey] = cacheDisablerStack;
+            Context.Items[Switcher<bool, DatabaseCacheDisabler>.ItemsKey] = cacheDisablerStack;
 
             userStack = new Stack<User>();
             userStack.Push(User.FromName(@"sitecore\admin", true));
-            Sitecore.Context.Items[Switcher<User>.ItemsKey] = userStack;
+            Context.Items[Switcher<User>.ItemsKey] = userStack;
         }
 
-        [ClassCleanup()]
+        [ClassCleanup]
         public static void Cleanup()
         {
             eventDisablerStack.Pop();
@@ -93,13 +86,13 @@ namespace FixtureDataProvider.Test
         }
 
         /// <summary>
-        /// Helper method that logs the Sitecore tree structure starting from the item that is passed.
+        ///     Helper method that logs the Sitecore tree structure starting from the item that is passed.
         /// </summary>
         /// <param name="item"></param>
         /// <param name="level">Level; for indentation</param>
         public static void LogTreeStructure(Item item, int level = 0)
         {
-            Console.WriteLine(string.Format("{0}>{1}", new string(' ', level * 2), item.Name));
+            Console.WriteLine("{0}>{1}", new string(' ', level*2), item.Name);
             // LogItemFields(item, level);
             foreach (Item child in item.GetChildren())
             {
@@ -108,15 +101,15 @@ namespace FixtureDataProvider.Test
         }
 
         /// <summary>
-        /// Helper method that logs the field contents of an item that is passed.
+        ///     Helper method that logs the field contents of an item that is passed.
         /// </summary>
         /// <param name="item"></param>
         /// <param name="level">Level; for indentation</param>
         public static void LogItemFields(Item item, int level = 0)
         {
-            foreach (Sitecore.Data.Fields.Field field in item.Fields)
+            foreach (Field field in item.Fields)
             {
-                Console.WriteLine(string.Format("{0}  ({1}={2})", new string(' ', level * 2), field.Name, field.Value));
+                Console.WriteLine("{0}  ({1}={2})", new string(' ', level*2), field.Name, field.Value);
             }
         }
     }

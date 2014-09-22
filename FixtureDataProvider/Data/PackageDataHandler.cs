@@ -15,55 +15,46 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Sitecore.Data.Serialization.ObjectModel;
-using Sitecore.SecurityModel;
-using Sitecore.Data.Proxies;
-using Sitecore.Data.Engines;
-using Sitecore.Install.Framework;
-using Sitecore.Install.Items;
-using Sitecore.Install;
-using Sitecore.Install.Utils;
-using Sitecore.Install.Zip;
-using Sitecore;
-using Sitecore.Install.Metadata;
-using Sitecore.Zip;
 using System.IO;
-using Sitecore.Xml;
+using System.Text;
 using System.Xml;
-using Sitecore.Data;
-using Sitecore.Data.Items;
-using Sitecore.Globalization;
+using Sitecore.Data.Proxies;
+using Sitecore.Data.Serialization.ObjectModel;
+using Sitecore.Install;
+using Sitecore.Install.Zip;
+using Sitecore.SecurityModel;
+using Sitecore.Xml;
+using Sitecore.Zip;
 
 namespace FixtureDataProvider.Data
 {
     /// <summary>
-    /// Loads fixture data items from a Sitecore package.
+    ///     Loads fixture data items from a Sitecore package.
     /// </summary>
     public class PackageDataHandler : IDataHandler
     {
-        private string PackagePath { get; set; }
-
         public PackageDataHandler(string packagePath)
         {
             PackagePath = packagePath;
         }
 
+        private string PackagePath { get; set; }
+
         public List<SyncItem> LoadItems()
         {
-            List<SyncItem> items = new List<SyncItem>();
+            var items = new List<SyncItem>();
 
             using (new SecurityDisabler())
             {
                 using (new ProxyDisabler())
                 {
-                    ZipReader reader = new ZipReader(PackagePath, Encoding.UTF8);
+                    var reader = new ZipReader(PackagePath, Encoding.UTF8);
                     ZipEntry entry = reader.GetEntry("package.zip");
 
-                    using (MemoryStream stream = new MemoryStream())
+                    using (var stream = new MemoryStream())
                     {
                         StreamUtil.Copy(entry.GetStream(), stream, 0x4000);
 
@@ -71,12 +62,13 @@ namespace FixtureDataProvider.Data
 
                         foreach (ZipEntry zipEntry in reader.Entries)
                         {
-                            ZipEntryData entryData = new ZipEntryData(zipEntry);
+                            var entryData = new ZipEntryData(zipEntry);
                             try
                             {
                                 if (entryData.Key.EndsWith("/xml"))
                                 {
-                                    string xml = new StreamReader(entryData.GetStream().Stream, Encoding.UTF8).ReadToEnd();
+                                    string xml =
+                                        new StreamReader(entryData.GetStream().Stream, Encoding.UTF8).ReadToEnd();
                                     if (!string.IsNullOrWhiteSpace(xml))
                                     {
                                         XmlDocument document = XmlUtil.LoadXml(xml);
@@ -91,23 +83,23 @@ namespace FixtureDataProvider.Data
                                     }
                                 }
                             }
-                            catch (Exception exc)
+                            catch (Exception)
                             {
-                                Console.WriteLine(string.Format("Unable to load xml from file {0}", entryData.Key));
+                                Console.WriteLine("Unable to load xml from file {0}", entryData.Key);
                             }
                         }
                     }
                 }
             }
 
-            Console.WriteLine(string.Format("Read {0} items from package {1}", items.Count, PackagePath));
+            Console.WriteLine("Read {0} items from package {1}", items.Count, PackagePath);
 
             return items;
         }
 
         private static SyncItem LoadItem(XmlDocument document)
         {
-            SyncItem loadedItem = new SyncItem();
+            var loadedItem = new SyncItem();
 
             XmlNode itemNode = document.DocumentElement;
             loadedItem.ID = XmlUtil.GetAttribute("id", itemNode);
